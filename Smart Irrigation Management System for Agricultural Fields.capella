@@ -46,7 +46,7 @@
         <ownedOperationalActivities xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
             id="09a90abb-49e2-4b4b-ab07-578e7a615826" name="Root Operational Activity">
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="9251991d-47ad-46b9-a34c-3a80dbcab20e" name="Measure soil humidity and weather forecast"/>
+              id="9251991d-47ad-46b9-a34c-3a80dbcab20e" name="Check weather forecast"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="72450d0e-5d95-4b31-aed1-92db80969dd0" name="Evaluate water needs"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
@@ -75,6 +75,8 @@
               id="8e46b72d-b587-4c9b-96d5-e63005acc5d7" name="Check alarm information"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="55ca8808-49fe-4734-bc80-6e351ad96abd" name="Close alarm"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="1d513ae8-31f3-4fb2-9164-14e1ff655ee6" name="Check soil humidity"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="3e35f946-1749-41d1-a562-1e9eeaebed65" name="Gave water need data"
               target="#72450d0e-5d95-4b31-aed1-92db80969dd0" source="#9251991d-47ad-46b9-a34c-3a80dbcab20e"/>
@@ -114,6 +116,9 @@
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="837b13ce-c99e-4a9f-9f7b-b8d99ef45a59" name="Repair confirmation"
               target="#55ca8808-49fe-4734-bc80-6e351ad96abd" source="#4922be31-cec2-499e-b471-4447502c6de8"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="9e303740-f7c3-4adc-bb74-f4603cdbd1d8" name="Gave humidity data"
+              target="#9251991d-47ad-46b9-a34c-3a80dbcab20e" source="#1d513ae8-31f3-4fb2-9164-14e1ff655ee6"/>
         </ownedOperationalActivities>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
@@ -299,7 +304,7 @@
               id="9d42bf2d-ded2-47c7-9f5a-4867372295f3" name="[OES] Repair and check malfunctions"
               kind="INTERACTION">
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
-                id="b390e4e3-1839-44ad-be2a-7a0cd55663f7" name="Monitoring operator"/>
+                id="8b6d0d51-871b-4a55-8dc0-8ffbad171174" name="Farmer" representedInstance="#faed972e-02e3-4dd3-a7cb-8545b280deb5"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
                 id="9c4b1ade-131a-4ca7-931e-44bfcbed8c24" name="Smart irrigation system"
                 representedInstance="#41b00d9d-63e3-43a2-b15a-5ad00bb66319"/>
@@ -307,21 +312,20 @@
                 id="ed36d2e2-1ecf-4944-8ce5-712cc07cb9a5" name="Maintenance company"
                 representedInstance="#f1191a99-062b-42ad-94f2-b017d20562b2"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
-                id="21c289b9-0699-4b30-ae9d-31457996fa3e" name="malfunction alarm"
-                kind="ASYNCHRONOUS_CALL" sendingEnd="#7749be0f-05ed-4625-88c5-cd745f6b83c4"
-                receivingEnd="#3a254674-7fec-4353-a023-ae5202d5d177"/>
+                id="66cd41c1-e3c0-415d-a220-a5a60c23e6d6" name="Alarm triggered" kind="ASYNCHRONOUS_CALL"
+                sendingEnd="#6b7808f8-ae05-418d-bc88-417f821be277" receivingEnd="#11e3914c-0e76-484d-8200-263af104d01c"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
-                id="19fdbc41-d99b-46c5-abb8-7745795c5340" name="Repairation requested"
-                kind="ASYNCHRONOUS_CALL" sendingEnd="#26a60fe6-d3a8-41fd-b128-3e0de21e021f"
-                receivingEnd="#f0eb2476-92d1-4794-8ee6-dbc5ffadc55a"/>
+                id="3998eaa4-2376-4edc-ac2e-8dab6fdc95d0" name="Call maintenance company"
+                kind="ASYNCHRONOUS_CALL" sendingEnd="#75388c44-3b51-4fb7-b962-121688af5bd7"
+                receivingEnd="#c4245397-bc5a-4b00-b7d7-9ae4e8efb0bd"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
                 id="22843c5c-959e-4095-9a19-344cf43538c7" name="Sensor repaired or replaced"
                 kind="ASYNCHRONOUS_CALL" sendingEnd="#b1893328-6875-4756-8d34-a9ab700b7a7f"
                 receivingEnd="#74edecc3-718f-4f22-9367-fb1fa3f3de2e"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
-                id="4385a258-12d5-4b14-8018-355fb96ec61f" name="Repair confirmation"
-                kind="ASYNCHRONOUS_CALL" sendingEnd="#2d3a740b-9ff8-41f2-b04a-1e5f4c5a21e6"
-                receivingEnd="#978b49ca-ff11-436d-9e04-31e27b4e41a1"/>
+                id="e495349f-6c85-4756-b259-02e9a7ab882c" name="Repair confirmation"
+                kind="ASYNCHRONOUS_CALL" sendingEnd="#082e8768-c875-4a94-b67c-2cfe4e020c3d"
+                receivingEnd="#efeeec8f-2ecf-4d2b-9b20-010dd7e342db"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
                 id="1307e3cc-61a1-475d-a2ff-ccdfd64b5fce" name="Detect malfunctionning sensor"
                 coveredInstanceRoles="#9c4b1ade-131a-4ca7-931e-44bfcbed8c24" relatedAbstractFunction="#8e5233bd-a65f-4371-9812-111c228ef52a"/>
@@ -329,26 +333,26 @@
                 id="4220747d-ef73-42a4-a7af-2872ae7485fc" name="Detect malfunctionning sensor"
                 coveredInstanceRoles="#9c4b1ade-131a-4ca7-931e-44bfcbed8c24" relatedAbstractFunction="#8e5233bd-a65f-4371-9812-111c228ef52a"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
-                id="7749be0f-05ed-4625-88c5-cd745f6b83c4" name="Send Call Message Call"
-                coveredInstanceRoles="#9c4b1ade-131a-4ca7-931e-44bfcbed8c24" event="#7ff4757e-b935-46c3-8733-7d41eeeed827"/>
+                id="6b7808f8-ae05-418d-bc88-417f821be277" name="Send Call Message Call"
+                coveredInstanceRoles="#9c4b1ade-131a-4ca7-931e-44bfcbed8c24" event="#45f50e55-c0af-442d-a2c4-4687cf614726"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
-                id="3a254674-7fec-4353-a023-ae5202d5d177" name="Receive Call Message Call"
-                coveredInstanceRoles="#b390e4e3-1839-44ad-be2a-7a0cd55663f7" event="#120e7e16-a7e2-44a4-a4ef-d233601b4f85"/>
+                id="11e3914c-0e76-484d-8200-263af104d01c" name="Receive Call Message Call"
+                coveredInstanceRoles="#8b6d0d51-871b-4a55-8dc0-8ffbad171174" event="#f3f71efa-4685-47ca-af44-9a28567a09eb"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
-                id="c213341f-af00-4fee-b0fc-fd678488eb67" name="Check malfunction"
-                coveredInstanceRoles="#b390e4e3-1839-44ad-be2a-7a0cd55663f7" relatedAbstractFunction="#f22df78b-1d18-4f84-8584-2f341c3c23e1"/>
+                id="eaca5345-348d-484e-bde3-8203dadb8b30" name="Check alarm information"
+                coveredInstanceRoles="#8b6d0d51-871b-4a55-8dc0-8ffbad171174" relatedAbstractFunction="#8e46b72d-b587-4c9b-96d5-e63005acc5d7"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
-                id="94b1f45b-4c45-4fb2-bad0-91183496e241" name="Check malfunction"
-                coveredInstanceRoles="#b390e4e3-1839-44ad-be2a-7a0cd55663f7" relatedAbstractFunction="#f22df78b-1d18-4f84-8584-2f341c3c23e1"/>
+                id="098e9e85-a0d3-4a55-8a70-85e35a443cff" name="Check alarm information"
+                coveredInstanceRoles="#8b6d0d51-871b-4a55-8dc0-8ffbad171174" relatedAbstractFunction="#8e46b72d-b587-4c9b-96d5-e63005acc5d7"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEnd"
-                id="06e7e11b-e595-4bff-99b1-e33598156139" name="endExec" coveredInstanceRoles="#b390e4e3-1839-44ad-be2a-7a0cd55663f7"
-                event="#02d8f0cb-8869-422f-8546-486b3e01d4ae"/>
+                id="e64db041-e1ce-468a-9e1a-51920ef290fb" name="endExec" coveredInstanceRoles="#8b6d0d51-871b-4a55-8dc0-8ffbad171174"
+                event="#a1beacd3-ba7e-499b-b65d-9e4a38533c38"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
-                id="26a60fe6-d3a8-41fd-b128-3e0de21e021f" name="Send Call Message Call"
-                coveredInstanceRoles="#b390e4e3-1839-44ad-be2a-7a0cd55663f7" event="#1f2fccfa-e6de-4ab8-b789-630dc9612e9f"/>
+                id="75388c44-3b51-4fb7-b962-121688af5bd7" name="Send Call Message Call"
+                coveredInstanceRoles="#8b6d0d51-871b-4a55-8dc0-8ffbad171174" event="#32da2099-7e60-4486-be17-2edc7025dd27"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
-                id="f0eb2476-92d1-4794-8ee6-dbc5ffadc55a" name="Receive Call Message Call"
-                coveredInstanceRoles="#ed36d2e2-1ecf-4944-8ce5-712cc07cb9a5" event="#9ba9e88b-8654-4c95-8754-0aa3342552fd"/>
+                id="c4245397-bc5a-4b00-b7d7-9ae4e8efb0bd" name="Receive Call Message Call"
+                coveredInstanceRoles="#ed36d2e2-1ecf-4944-8ce5-712cc07cb9a5" event="#45423787-34f7-4287-81b3-fceceed7bfa8"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
                 id="eabc3c50-e38c-4074-aad4-85c6096baf6b" name="Repair malfunction"
                 coveredInstanceRoles="#ed36d2e2-1ecf-4944-8ce5-712cc07cb9a5" relatedAbstractFunction="#ad525f95-e909-45ea-a86d-aba3f08646d5"/>
@@ -356,8 +360,8 @@
                 id="3dc416b5-3f25-4a8e-aba9-00c0ec2c96d3" name="Repair malfunction"
                 coveredInstanceRoles="#ed36d2e2-1ecf-4944-8ce5-712cc07cb9a5" relatedAbstractFunction="#ad525f95-e909-45ea-a86d-aba3f08646d5"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEnd"
-                id="cb8f2f5c-aca1-4633-94c0-49b28c4e2ee1" name="endExec" coveredInstanceRoles="#ed36d2e2-1ecf-4944-8ce5-712cc07cb9a5"
-                event="#647eba7b-d2f4-4bb6-9934-a3984ab7c324"/>
+                id="0ae01215-8e6d-4bd4-b5ec-f595308792e2" name="endExec" coveredInstanceRoles="#ed36d2e2-1ecf-4944-8ce5-712cc07cb9a5"
+                event="#2fd6541a-92d8-41b8-96fd-bec9595f3a34"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
                 id="b1893328-6875-4756-8d34-a9ab700b7a7f" name="Send Call Message Call"
                 coveredInstanceRoles="#ed36d2e2-1ecf-4944-8ce5-712cc07cb9a5" event="#8512834a-28c2-4ace-8435-6ac408455ed6"/>
@@ -374,20 +378,20 @@
                 id="ba34a942-92a4-4fc3-9dd1-a1c52417967c" name="endExec" coveredInstanceRoles="#9c4b1ade-131a-4ca7-931e-44bfcbed8c24"
                 event="#d21faf66-39b2-4f9d-a634-193b9cedcaac"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
-                id="2d3a740b-9ff8-41f2-b04a-1e5f4c5a21e6" name="Send Call Message Call"
-                coveredInstanceRoles="#9c4b1ade-131a-4ca7-931e-44bfcbed8c24" event="#521af87b-60c9-4b22-87be-4202cdabe27f"/>
+                id="082e8768-c875-4a94-b67c-2cfe4e020c3d" name="Send Call Message Call"
+                coveredInstanceRoles="#9c4b1ade-131a-4ca7-931e-44bfcbed8c24" event="#0fb5c54b-21d0-4d9e-a9a3-a3b337ec901b"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
-                id="978b49ca-ff11-436d-9e04-31e27b4e41a1" name="Receive Call Message Call"
-                coveredInstanceRoles="#b390e4e3-1839-44ad-be2a-7a0cd55663f7" event="#df76d940-414f-4995-8f89-776ce5a2a08d"/>
+                id="efeeec8f-2ecf-4d2b-9b20-010dd7e342db" name="Receive Call Message Call"
+                coveredInstanceRoles="#8b6d0d51-871b-4a55-8dc0-8ffbad171174" event="#e5b66e59-4caa-4572-bfac-f378469efc4a"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
-                id="f73304d1-2d10-405b-b465-005806101457" name="Close alarm" coveredInstanceRoles="#b390e4e3-1839-44ad-be2a-7a0cd55663f7"
-                relatedAbstractFunction="#9670f01c-593c-482b-8f99-7804a5d08f4d"/>
+                id="3b2820f6-7819-4bd5-a7e7-3394e0df7bc1" name="Close alarm" coveredInstanceRoles="#8b6d0d51-871b-4a55-8dc0-8ffbad171174"
+                relatedAbstractFunction="#55ca8808-49fe-4734-bc80-6e351ad96abd"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
-                id="c1a72922-0bbe-4af5-a8e0-026b08d11810" name="Close alarm" coveredInstanceRoles="#b390e4e3-1839-44ad-be2a-7a0cd55663f7"
-                relatedAbstractFunction="#9670f01c-593c-482b-8f99-7804a5d08f4d"/>
+                id="6fc25209-b46e-4338-ae21-4615b879c8ff" name="Close alarm" coveredInstanceRoles="#8b6d0d51-871b-4a55-8dc0-8ffbad171174"
+                relatedAbstractFunction="#55ca8808-49fe-4734-bc80-6e351ad96abd"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEnd"
-                id="75056956-bb00-48d1-94e1-34f66ffda99b" name="endExec" coveredInstanceRoles="#b390e4e3-1839-44ad-be2a-7a0cd55663f7"
-                event="#22bd96d6-ff95-43d6-a4d1-f98c64f51436"/>
+                id="8c82ff5a-573d-49ca-8b34-c5d7f22472f5" name="endExec" coveredInstanceRoles="#8b6d0d51-871b-4a55-8dc0-8ffbad171174"
+                event="#64d51ae7-0729-403d-b29c-fbbb2dcf8156"/>
             <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
                 id="c66c4b12-50da-49a9-9913-878f4937c7ac" start="#1307e3cc-61a1-475d-a2ff-ccdfd64b5fce"
                 finish="#4220747d-ef73-42a4-a7af-2872ae7485fc" relatedAbstractFunction="#8e5233bd-a65f-4371-9812-111c228ef52a"/>
@@ -397,36 +401,24 @@
             <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
                 id="6ec8af75-7749-42c3-ba10-a2b20abcee61" start="#eabc3c50-e38c-4074-aad4-85c6096baf6b"
                 finish="#3dc416b5-3f25-4a8e-aba9-00c0ec2c96d3" relatedAbstractFunction="#ad525f95-e909-45ea-a86d-aba3f08646d5"/>
-            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
-                id="3ea683d6-c8ba-4067-bfd6-c7ec4e2de686" start="#c213341f-af00-4fee-b0fc-fd678488eb67"
-                finish="#94b1f45b-4c45-4fb2-bad0-91183496e241" relatedAbstractFunction="#f22df78b-1d18-4f84-8584-2f341c3c23e1"/>
-            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
-                id="dd611261-c9ca-4dcb-be73-b6ff46b1230f" start="#f73304d1-2d10-405b-b465-005806101457"
-                finish="#c1a72922-0bbe-4af5-a8e0-026b08d11810" relatedAbstractFunction="#9670f01c-593c-482b-8f99-7804a5d08f4d"/>
-            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:Execution"
-                id="82a629b6-b5e0-4353-ad43-5709032b62c9" start="#3a254674-7fec-4353-a023-ae5202d5d177"
-                finish="#06e7e11b-e595-4bff-99b1-e33598156139"/>
-            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:Execution"
-                id="d92025ab-e6c0-48d0-a1d5-7d79de5b8cbd" start="#f0eb2476-92d1-4794-8ee6-dbc5ffadc55a"
-                finish="#cb8f2f5c-aca1-4633-94c0-49b28c4e2ee1"/>
             <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:Execution"
                 id="4c357018-924b-4b94-8ce5-3e6c08ed1b84" start="#74edecc3-718f-4f22-9367-fb1fa3f3de2e"
                 finish="#ba34a942-92a4-4fc3-9dd1-a1c52417967c"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="2fe249d0-9da5-4e9e-9e25-f1bf34c04f88" start="#eaca5345-348d-484e-bde3-8203dadb8b30"
+                finish="#098e9e85-a0d3-4a55-8a70-85e35a443cff" relatedAbstractFunction="#8e46b72d-b587-4c9b-96d5-e63005acc5d7"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="18312015-b9c1-44a6-a6e3-6fcacfc94c73" start="#3b2820f6-7819-4bd5-a7e7-3394e0df7bc1"
+                finish="#6fc25209-b46e-4338-ae21-4615b879c8ff" relatedAbstractFunction="#55ca8808-49fe-4734-bc80-6e351ad96abd"/>
             <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:Execution"
-                id="f50188d1-fe44-495b-98f4-40a417b215e3" start="#978b49ca-ff11-436d-9e04-31e27b4e41a1"
-                finish="#75056956-bb00-48d1-94e1-34f66ffda99b"/>
-            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventSentOperation"
-                id="7ff4757e-b935-46c3-8733-7d41eeeed827" operation="#9a0f448e-d655-42d2-b152-1c169eec3b59"/>
-            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventReceiptOperation"
-                id="120e7e16-a7e2-44a4-a4ef-d233601b4f85" operation="#9a0f448e-d655-42d2-b152-1c169eec3b59"/>
-            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEvent"
-                id="02d8f0cb-8869-422f-8546-486b3e01d4ae"/>
-            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventSentOperation"
-                id="1f2fccfa-e6de-4ab8-b789-630dc9612e9f" operation="#d2d83851-463d-4191-b165-85259e341b3f"/>
-            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventReceiptOperation"
-                id="9ba9e88b-8654-4c95-8754-0aa3342552fd" operation="#d2d83851-463d-4191-b165-85259e341b3f"/>
-            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEvent"
-                id="647eba7b-d2f4-4bb6-9934-a3984ab7c324"/>
+                id="083e5d74-0e3b-4b09-99a7-cf4109a7f2a9" start="#11e3914c-0e76-484d-8200-263af104d01c"
+                finish="#e64db041-e1ce-468a-9e1a-51920ef290fb"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:Execution"
+                id="50616e3f-8ad2-4b65-9d14-082ccba3c2ab" start="#efeeec8f-2ecf-4d2b-9b20-010dd7e342db"
+                finish="#8c82ff5a-573d-49ca-8b34-c5d7f22472f5"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:Execution"
+                id="04272749-b153-45b8-bc55-e21ec619577f" start="#c4245397-bc5a-4b00-b7d7-9ae4e8efb0bd"
+                finish="#0ae01215-8e6d-4bd4-b5ec-f595308792e2"/>
             <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventSentOperation"
                 id="8512834a-28c2-4ace-8435-6ac408455ed6" operation="#6d21afd5-f175-4825-97d2-7610e592edea"/>
             <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventReceiptOperation"
@@ -434,11 +426,23 @@
             <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEvent"
                 id="d21faf66-39b2-4f9d-a634-193b9cedcaac"/>
             <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventSentOperation"
-                id="521af87b-60c9-4b22-87be-4202cdabe27f" operation="#7e3678d6-8a1c-49c9-a336-0ef98c9e3ce7"/>
+                id="45f50e55-c0af-442d-a2c4-4687cf614726" operation="#86c03bf3-8d9d-447c-a5dc-299b25c5b698"/>
             <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventReceiptOperation"
-                id="df76d940-414f-4995-8f89-776ce5a2a08d" operation="#7e3678d6-8a1c-49c9-a336-0ef98c9e3ce7"/>
+                id="f3f71efa-4685-47ca-af44-9a28567a09eb" operation="#86c03bf3-8d9d-447c-a5dc-299b25c5b698"/>
             <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEvent"
-                id="22bd96d6-ff95-43d6-a4d1-f98c64f51436"/>
+                id="a1beacd3-ba7e-499b-b65d-9e4a38533c38"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventSentOperation"
+                id="0fb5c54b-21d0-4d9e-a9a3-a3b337ec901b" operation="#837b13ce-c99e-4a9f-9f7b-b8d99ef45a59"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventReceiptOperation"
+                id="e5b66e59-4caa-4572-bfac-f378469efc4a" operation="#837b13ce-c99e-4a9f-9f7b-b8d99ef45a59"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEvent"
+                id="64d51ae7-0729-403d-b29c-fbbb2dcf8156"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventSentOperation"
+                id="32da2099-7e60-4486-be17-2edc7025dd27" operation="#1491802c-195c-4412-8c0c-3953e9777332"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:EventReceiptOperation"
+                id="45423787-34f7-4287-81b3-fceceed7bfa8" operation="#1491802c-195c-4412-8c0c-3953e9777332"/>
+            <ownedEvents xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEvent"
+                id="2fd6541a-92d8-41b8-96fd-bec9595f3a34"/>
           </ownedScenarios>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="5a36f442-adec-4386-b5a0-b3f28818e6ba" involved="#0cbf4cc5-7ed3-409c-8b15-c6456050df8d"/>
@@ -531,6 +535,9 @@
               sourceElement="#0cbf4cc5-7ed3-409c-8b15-c6456050df8d"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="83658b42-94ef-41b9-b941-fb6794b44061" targetElement="#ee90033d-e466-4c0f-bac9-3d161babdc0d"
+              sourceElement="#0cbf4cc5-7ed3-409c-8b15-c6456050df8d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="287a78a5-eb6e-4a89-b8d8-06480225748c" targetElement="#1d513ae8-31f3-4fb2-9164-14e1ff655ee6"
               sourceElement="#0cbf4cc5-7ed3-409c-8b15-c6456050df8d"/>
         </ownedEntities>
       </ownedEntityPkg>
@@ -953,10 +960,70 @@
                 id="544b0bff-77f9-4a5d-bddb-c87f2b98e58b" name="Smart irrigation system"
                 representedInstance="#c471154c-51c7-49cf-ab1f-447d79b720cd"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
-                id="62354d97-2315-4a3b-b925-3d1b52bd988d" name="Maintenance company"
-                representedInstance="#7bb4a671-5b23-49c2-a74f-d350f3f160bf"/>
-            <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
                 id="ff1c2bdf-a18c-4d25-a75b-9cc1425007b1" name="Farmer" representedInstance="#33f9f178-324c-4f61-891f-e6465b8cee76"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="be299c8d-97c7-4b89-9674-b08914e25cc6" name="Check status of sensors"
+                coveredInstanceRoles="#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120" relatedAbstractFunction="#c5e733ab-ce46-49ae-afc0-6c8c8a331947"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="eb572001-44a3-4105-9e57-4b65e317cab9" name="Check status of sensors"
+                coveredInstanceRoles="#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120" relatedAbstractFunction="#c5e733ab-ce46-49ae-afc0-6c8c8a331947"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="9ff60007-7ae3-4b2d-8fbc-fb8ba0cf06c9" name="Mesure soil humidity and weather forecast"
+                coveredInstanceRoles="#544b0bff-77f9-4a5d-bddb-c87f2b98e58b" relatedAbstractFunction="#6c7e66d6-e980-41e5-9ef2-abb2726e17fb"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="c9f0df6c-bfed-463b-8cb6-7f0277f5f40f" name="Check weather forecast "
+                coveredInstanceRoles="#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120" relatedAbstractFunction="#37837a80-6caa-4a04-a8e9-df7907df2b81"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="3cb66029-4de6-4a52-9bdb-12ce6b400112" name="Mesure soil humidity and weather forecast"
+                coveredInstanceRoles="#544b0bff-77f9-4a5d-bddb-c87f2b98e58b" relatedAbstractFunction="#6c7e66d6-e980-41e5-9ef2-abb2726e17fb"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="c9097ad0-6178-4e54-b54a-b3eb2c662ea0" name="Determine water needs"
+                coveredInstanceRoles="#544b0bff-77f9-4a5d-bddb-c87f2b98e58b" relatedAbstractFunction="#ab0c19f9-237b-4c0d-bf2d-d8852e0b36bd"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="30df666e-51e7-4830-9481-0c9a22fab8a9" name="Determine water needs"
+                coveredInstanceRoles="#544b0bff-77f9-4a5d-bddb-c87f2b98e58b" relatedAbstractFunction="#ab0c19f9-237b-4c0d-bf2d-d8852e0b36bd"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="a0598f06-6672-44be-b185-11c673227a3f" name="Check weather forecast "
+                coveredInstanceRoles="#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120" relatedAbstractFunction="#37837a80-6caa-4a04-a8e9-df7907df2b81"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="ea8ab4f3-14a2-42ee-89e5-31931240c0f1" name="Measure soil humidity"
+                coveredInstanceRoles="#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120" relatedAbstractFunction="#5c26975b-c96b-4cf0-869b-1b0122572957"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="71bac0f5-4339-4652-858d-33075fd805e6" name="Measure soil humidity"
+                coveredInstanceRoles="#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120" relatedAbstractFunction="#5c26975b-c96b-4cf0-869b-1b0122572957"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="3dae252a-6b19-46ac-ba04-4ae89bc77b67" name="Check Water valve status"
+                coveredInstanceRoles="#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120" relatedAbstractFunction="#7b2f986e-1829-4411-9549-bc271b0f050a"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="d25503f9-992c-478f-a623-7b936de5560a" name="Check Water valve status"
+                coveredInstanceRoles="#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120" relatedAbstractFunction="#7b2f986e-1829-4411-9549-bc271b0f050a"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="c4b0c180-9e88-40bd-aadd-c2717f5e0770" name="Control Water valve flow amount"
+                coveredInstanceRoles="#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120" relatedAbstractFunction="#c0811ab2-398f-43b8-9c41-1b6a64aa494d"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="ad6ffdc4-92fc-49e9-9062-699307c1db9a" name="Control Water valve flow amount"
+                coveredInstanceRoles="#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120" relatedAbstractFunction="#c0811ab2-398f-43b8-9c41-1b6a64aa494d"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="8bf1e3b5-c564-4051-983c-3404f3845032" start="#be299c8d-97c7-4b89-9674-b08914e25cc6"
+                finish="#eb572001-44a3-4105-9e57-4b65e317cab9" relatedAbstractFunction="#c5e733ab-ce46-49ae-afc0-6c8c8a331947"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="20b3dbbb-8f08-4f23-8ecc-30d5908b269e" start="#c9f0df6c-bfed-463b-8cb6-7f0277f5f40f"
+                finish="#a0598f06-6672-44be-b185-11c673227a3f" relatedAbstractFunction="#37837a80-6caa-4a04-a8e9-df7907df2b81"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="cf9b2daf-d52f-4451-8a6f-e7df952d3443" start="#ea8ab4f3-14a2-42ee-89e5-31931240c0f1"
+                finish="#71bac0f5-4339-4652-858d-33075fd805e6" relatedAbstractFunction="#5c26975b-c96b-4cf0-869b-1b0122572957"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="35eeb7ed-2676-467f-a43f-aae54f27fe63" start="#3dae252a-6b19-46ac-ba04-4ae89bc77b67"
+                finish="#d25503f9-992c-478f-a623-7b936de5560a" relatedAbstractFunction="#7b2f986e-1829-4411-9549-bc271b0f050a"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="a56145da-8949-42fc-b9b8-90c7f0492994" start="#c4b0c180-9e88-40bd-aadd-c2717f5e0770"
+                finish="#ad6ffdc4-92fc-49e9-9062-699307c1db9a" relatedAbstractFunction="#c0811ab2-398f-43b8-9c41-1b6a64aa494d"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="b6fd3717-d976-4da3-bfa8-e41d9b66fab8" start="#c9097ad0-6178-4e54-b54a-b3eb2c662ea0"
+                finish="#30df666e-51e7-4830-9481-0c9a22fab8a9" relatedAbstractFunction="#ab0c19f9-237b-4c0d-bf2d-d8852e0b36bd"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="77be5986-17a1-4653-86bc-817d5d9a8dc1" start="#9ff60007-7ae3-4b2d-8fbc-fb8ba0cf06c9"
+                finish="#3cb66029-4de6-4a52-9bdb-12ce6b400112" relatedAbstractFunction="#6c7e66d6-e980-41e5-9ef2-abb2726e17fb"/>
           </ownedScenarios>
           <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
               id="62ab76ee-9b37-4966-ac1a-7c6b90641753" name="[ES] Capability 1" kind="DATA_FLOW">
@@ -1006,6 +1073,16 @@
             id="e60646b8-50f2-4687-b418-3e0c9f673e7d" name="Gather information about sensor">
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
               id="dc101948-08b7-4b7e-bafd-0e865c744f60" involved="#07a0bae6-dfe4-4878-b06a-17ed0f720e51"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="f25b6b92-9758-4f37-97fa-b1d82bb03d4c" name="Search for forecast informations">
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="028b8af8-7999-4b27-9b08-2e0e6155b1c2" involved="#07a0bae6-dfe4-4878-b06a-17ed0f720e51"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="3060b4f9-60ed-4520-99c9-b68257efcffb" name="Update watering schedule">
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="29a69bf8-c519-47f7-95e8-6b179ac3d263" involved="#07a0bae6-dfe4-4878-b06a-17ed0f720e51"/>
         </ownedCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
@@ -1317,6 +1394,15 @@
               id="aa40c261-275d-41f2-a032-a5c174994ab0" capability="#15075a3c-8871-4f93-b026-3a653cca3b44"/>
           <ownedCapabilityExploitations xsi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation"
               id="a4987958-62b2-4260-b18d-ffb84777e687" capability="#e60646b8-50f2-4687-b418-3e0c9f673e7d"/>
+        </ownedMissions>
+        <ownedMissions xsi:type="org.polarsys.capella.core.data.ctx:Mission" id="87c85655-d359-48f9-b438-1c79cf35ecb2"
+            name="[MCB] Considering upcoming precipitation to avoid unnecessary watering">
+          <ownedMissionInvolvements xsi:type="org.polarsys.capella.core.data.ctx:MissionInvolvement"
+              id="2ff0fd1b-f3df-40ef-9e8f-82227f5aa0f4" involved="#07a0bae6-dfe4-4878-b06a-17ed0f720e51"/>
+          <ownedCapabilityExploitations xsi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation"
+              id="32ec6cf1-a113-4553-98b3-220857261303" capability="#f25b6b92-9758-4f37-97fa-b1d82bb03d4c"/>
+          <ownedCapabilityExploitations xsi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation"
+              id="882b098a-6a80-40d9-8b0d-90a1644fce10" capability="#3060b4f9-60ed-4520-99c9-b68257efcffb"/>
         </ownedMissions>
       </ownedMissionPkg>
       <ownedOperationalAnalysisRealizations xsi:type="org.polarsys.capella.core.data.ctx:OperationalAnalysisRealization"

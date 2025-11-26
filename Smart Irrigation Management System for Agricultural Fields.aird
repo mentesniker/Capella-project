@@ -8,15 +8,15 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_X71SQMPCEfCwVNYX2jS7jw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_O0OGIMPFEfCwVNYX2jS7jw" name="[OEBD] Operational Entities" repPath="#_O0KbwMPFEfCwVNYX2jS7jw" changeId="1763736003481">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_O0OGIMPFEfCwVNYX2jS7jw" name="[OEBD] Operational Entities" repPath="#_O0KbwMPFEfCwVNYX2jS7jw" changeId="1764148802728">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Breakdown']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#3acd1765-e093-4422-a1bb-461e76410631"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_pge_AMUmEfCqf8eWWJSwXw" name="[OCB] Operational Capabilities smart irrigation" repPath="#_pgciwMUmEfCqf8eWWJSwXw" changeId="1763891636964">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_pge_AMUmEfCqf8eWWJSwXw" name="[OCB] Operational Capabilities smart irrigation" repPath="#_pgciwMUmEfCqf8eWWJSwXw" changeId="1764148954187">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#837dfb3a-cd2c-4bb3-8b75-3ae239d42cb4"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_7Jp1oMZZEfCppuBZruQtoA" name="[OAB] Automatic regulation of irrigation" repPath="#_7In64MZZEfCppuBZruQtoA" changeId="1763738621758">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_7Jp1oMZZEfCppuBZruQtoA" name="[OAB] Automatic regulation of irrigation" repPath="#_7In64MZZEfCppuBZruQtoA" changeId="1764147212212">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:EntityPkg" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#3acd1765-e093-4422-a1bb-461e76410631"/>
       </ownedRepresentationDescriptors>
@@ -32,7 +32,7 @@
         <description xmi:type="description_2:SequenceDiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']"/>
         <target xmi:type="org.polarsys.capella.core.data.interaction:Scenario" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#78175355-6cd5-4fd7-a130-5db1ceecf1b1"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_tU2VEMZxEfCppuBZruQtoA" name="[OES] Repair and check malfunctions" repPath="#_tU1G8MZxEfCppuBZruQtoA" changeId="1763685366788">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_tU2VEMZxEfCppuBZruQtoA" name="[OES] Repair and check malfunctions" repPath="#_tU1G8MZxEfCppuBZruQtoA" changeId="1764148754965">
         <description xmi:type="description_2:SequenceDiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']"/>
         <target xmi:type="org.polarsys.capella.core.data.interaction:Scenario" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9d42bf2d-ded2-47c7-9f5a-4867372295f3"/>
       </ownedRepresentationDescriptors>
@@ -50,7 +50,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#793ff302-ceab-4286-821c-42441bd0e12e"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_PtLOsMb3EfCpRtUUrq7kuQ" name="[SAB] Architecture view of Considering upcoming precipitation to avoid unnecessary watering" repPath="#_PtILYMb3EfCpRtUUrq7kuQ" changeId="1763975308871">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_PtLOsMb3EfCpRtUUrq7kuQ" name="[SAB] Architecture view of Considering upcoming precipitation to avoid unnecessary watering" repPath="#_PtILYMb3EfCpRtUUrq7kuQ" changeId="1764146888411">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#793ff302-ceab-4286-821c-42441bd0e12e"/>
       </ownedRepresentationDescriptors>
@@ -58,7 +58,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#b0a6482f-01c4-49d7-af01-6b55180255a8"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_DqTrAMb9EfCpRtUUrq7kuQ" name="[MCB] Considering upcoming precipitation to avoid unnecessary watering" repPath="#_DqR10Mb9EfCpRtUUrq7kuQ" changeId="1763745062489">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_DqTrAMb9EfCpRtUUrq7kuQ" name="[MCB] Considering upcoming precipitation to avoid unnecessary watering" repPath="#_DqR10Mb9EfCpRtUUrq7kuQ" changeId="1764102617382">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#b0a6482f-01c4-49d7-af01-6b55180255a8"/>
       </ownedRepresentationDescriptors>
@@ -75,14 +75,6 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_YQEc4MPCEfCwVNYX2jS7jw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_V5mdEMbpEfCpRtUUrq7kuQ" name="[ES] Detecting low soil moisture to trigger automatic watering" repPath="#_V5fvYMbpEfCpRtUUrq7kuQ" changeId="1763736700752">
-        <description xmi:type="description_2:SequenceDiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']"/>
-        <target xmi:type="org.polarsys.capella.core.data.interaction:Scenario" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#e2c3a4a2-268f-4862-9d3a-682664dbc876"/>
-      </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_2pwl0Mb8EfCpRtUUrq7kuQ" name="[ES] Capability 1" repPath="#_2puwoMb8EfCpRtUUrq7kuQ" changeId="1763744975642">
-        <description xmi:type="description_2:SequenceDiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']"/>
-        <target xmi:type="org.polarsys.capella.core.data.interaction:Scenario" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#62ab76ee-9b37-4966-ac1a-7c6b90641753"/>
-      </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
   <diagram:DSemanticDiagram uid="_O0KbwMPFEfCwVNYX2jS7jw">
@@ -647,7 +639,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JgG918ZaEfCppuBZruQtoA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_JgG90cZaEfCppuBZruQtoA" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JgG90sZaEfCppuBZruQtoA" x="55" y="104" width="166" height="70"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JgG90sZaEfCppuBZruQtoA" x="57" y="164" width="166" height="70"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_R_dvwMZaEfCppuBZruQtoA" type="3007" element="_R_TXsMZaEfCppuBZruQtoA">
               <children xmi:type="notation:Node" xmi:id="_R_dvw8ZaEfCppuBZruQtoA" type="5003">
@@ -670,6 +662,17 @@
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_viz44cZaEfCppuBZruQtoA" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_viz44sZaEfCppuBZruQtoA" x="57" y="434" width="166" height="70"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_9UvTwMqkEfCDmrD_F6P2Vg" type="3007" element="_9T7bcMqkEfCDmrD_F6P2Vg">
+              <children xmi:type="notation:Node" xmi:id="_9UvTw8qkEfCDmrD_F6P2Vg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_9UvTxMqkEfCDmrD_F6P2Vg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_9Uv60MqkEfCDmrD_F6P2Vg" type="3003" element="_9T8CgMqkEfCDmrD_F6P2Vg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_9Uv60cqkEfCDmrD_F6P2Vg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9Uv60sqkEfCDmrD_F6P2Vg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_9UvTwcqkEfCDmrD_F6P2Vg" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9UvTwsqkEfCDmrD_F6P2Vg" x="56" y="44" width="166" height="70"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="__bbM0cZZEfCppuBZruQtoA"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="__bbM0sZZEfCppuBZruQtoA"/>
@@ -700,17 +703,17 @@
         <styles xmi:type="notation:DiagramStyle" xmi:id="_7KyeEMZZEfCppuBZruQtoA"/>
         <edges xmi:type="notation:Edge" xmi:id="_oLDoMMZaEfCppuBZruQtoA" type="4001" element="_oK2z4MZaEfCppuBZruQtoA" source="_JgG90MZaEfCppuBZruQtoA" target="_R_dvwMZaEfCppuBZruQtoA">
           <children xmi:type="notation:Node" xmi:id="_oLEPQMZaEfCppuBZruQtoA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oLEPQcZaEfCppuBZruQtoA" x="-7" y="72"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oLEPQcZaEfCppuBZruQtoA" x="1" y="82"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_oLEPQsZaEfCppuBZruQtoA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oLEPQ8ZaEfCppuBZruQtoA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oLEPQ8ZaEfCppuBZruQtoA" y="11"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_oLEPRMZaEfCppuBZruQtoA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oLEPRcZaEfCppuBZruQtoA" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oLEPRcZaEfCppuBZruQtoA" x="-2" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_oLDoMcZaEfCppuBZruQtoA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_oLDoMsZaEfCppuBZruQtoA" fontColor="16777215" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oLDoM8ZaEfCppuBZruQtoA" points="[0, 0, 0, -110]$[0, 110, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oLDoM8ZaEfCppuBZruQtoA" points="[0, 0, 2, -35]$[-2, 35, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oLEPRsZaEfCppuBZruQtoA" id="(0.5120481927710844,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oLEPR8ZaEfCppuBZruQtoA" id="(0.5,0.0)"/>
         </edges>
@@ -746,6 +749,22 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-mG48MZaEfCppuBZruQtoA" id="(1.0,0.44285714285714284)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-mG48cZaEfCppuBZruQtoA" id="(0.0,0.44285714285714284)"/>
         </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_VcTwsMqlEfCDmrD_F6P2Vg" type="4001" element="_VbX8kMqlEfCDmrD_F6P2Vg" source="_9UvTwMqkEfCDmrD_F6P2Vg" target="_JgG90MZaEfCppuBZruQtoA">
+          <children xmi:type="notation:Node" xmi:id="_VcUXwMqlEfCDmrD_F6P2Vg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VcUXwcqlEfCDmrD_F6P2Vg" x="-7" y="70"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_VcUXwsqlEfCDmrD_F6P2Vg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VcUXw8qlEfCDmrD_F6P2Vg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_VcUXxMqlEfCDmrD_F6P2Vg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VcUXxcqlEfCDmrD_F6P2Vg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_VcTwscqlEfCDmrD_F6P2Vg" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_VcTwssqlEfCDmrD_F6P2Vg" fontColor="16777215" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VcTws8qlEfCDmrD_F6P2Vg" points="[0, 0, 0, -50]$[0, 50, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VcUXxsqlEfCDmrD_F6P2Vg" id="(0.5060240963855421,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VcUXx8qlEfCDmrD_F6P2Vg" id="(0.5,0.0)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_7LsdAMZZEfCppuBZruQtoA" source="DANNOTATION_CUSTOMIZATION_KEY">
@@ -758,7 +777,7 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']"/>
-      <ownedDiagramElements xmi:type="diagram:DNode" uid="_Jf6JgMZaEfCppuBZruQtoA" name="Measure soil humidity and weather forecast" outgoingEdges="_oK2z4MZaEfCppuBZruQtoA" width="7" height="7" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_Jf6JgMZaEfCppuBZruQtoA" name="Check weather forecast" outgoingEdges="_oK2z4MZaEfCppuBZruQtoA" incomingEdges="_VbX8kMqlEfCDmrD_F6P2Vg" width="7" height="7" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9251991d-47ad-46b9-a34c-3a80dbcab20e"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9251991d-47ad-46b9-a34c-3a80dbcab20e"/>
         <ownedStyle xmi:type="diagram:Square" uid="_Jf7XoMZaEfCppuBZruQtoA" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" labelPosition="node" width="-1" height="-1" color="247,218,116">
@@ -778,6 +797,14 @@
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#56509ebd-e406-42d0-aaee-850ee37657c8"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#56509ebd-e406-42d0-aaee-850ee37657c8"/>
         <ownedStyle xmi:type="diagram:Square" uid="_XGrhMcZaEfCppuBZruQtoA" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" labelPosition="node" width="-1" height="-1" color="247,218,116">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@subNodeMappings[name='OAB_Activity']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@subNodeMappings[name='OAB_Activity']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_9T7bcMqkEfCDmrD_F6P2Vg" name="Check soil humidity" outgoingEdges="_VbX8kMqlEfCDmrD_F6P2Vg" width="7" height="7" resizeKind="NSEW">
+        <target xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#1d513ae8-31f3-4fb2-9164-14e1ff655ee6"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#1d513ae8-31f3-4fb2-9164-14e1ff655ee6"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_9T8CgMqkEfCDmrD_F6P2Vg" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" labelPosition="node" width="-1" height="-1" color="247,218,116">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@subNodeMappings[name='OAB_Activity']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@containerMappings[name='OAB_Entity1']/@subNodeMappings[name='OAB_Activity']"/>
@@ -829,6 +856,17 @@
         <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_-l8g4sZaEfCppuBZruQtoA" labelColor="255,255,255"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_-l8g5MZaEfCppuBZruQtoA" labelColor="91,64,64"/>
         <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_-l8g48ZaEfCppuBZruQtoA" labelColor="255,255,255"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_VbX8kMqlEfCDmrD_F6P2Vg" name="Gave humidity data" sourceNode="_9T7bcMqkEfCDmrD_F6P2Vg" targetNode="_Jf6JgMZaEfCppuBZruQtoA" beginLabel="." endLabel=".">
+      <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9e303740-f7c3-4adc-bb74-f4603cdbd1d8"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9e303740-f7c3-4adc-bb74-f4603cdbd1d8"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_VbX8kcqlEfCDmrD_F6P2Vg" targetArrow="InputFillClosedArrow" strokeColor="91,64,64">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_VbX8ksqlEfCDmrD_F6P2Vg" labelColor="255,255,255"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_VbX8lMqlEfCDmrD_F6P2Vg" labelColor="91,64,64"/>
+        <endLabelStyle xmi:type="diagram:EndLabelStyle" uid="_VbX8k8qlEfCDmrD_F6P2Vg" labelColor="255,255,255"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Entity%20Blank']/@defaultLayer/@edgeMappings[name='OAB%20Interaction']"/>
     </ownedDiagramElements>
@@ -1700,83 +1738,6 @@
   <sequence:SequenceDDiagram uid="_tU1G8MZxEfCppuBZruQtoA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_tU28IMZxEfCppuBZruQtoA" source="GMF_DIAGRAMS">
       <data xmi:type="notation:Diagram" xmi:id="_tU3jMMZxEfCppuBZruQtoA" type="Sirius" element="_tU1G8MZxEfCppuBZruQtoA" measurementUnit="Pixel">
-        <children xmi:type="notation:Node" xmi:id="_u7zEwMZxEfCppuBZruQtoA" type="2001" element="_u7rwB8ZxEfCppuBZruQtoA">
-          <children xmi:type="notation:Node" xmi:id="_u7zr0MZxEfCppuBZruQtoA" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_u7zr0cZxEfCppuBZruQtoA" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_u70S4MZxEfCppuBZruQtoA" type="3001" element="_u7rwCsZxEfCppuBZruQtoA">
-            <children xmi:type="notation:Node" xmi:id="_u70S48ZxEfCppuBZruQtoA" type="5001">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_u70S5MZxEfCppuBZruQtoA" y="5"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_u70S6MZxEfCppuBZruQtoA" type="3003" element="_u7rwC8ZxEfCppuBZruQtoA">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_u70S6cZxEfCppuBZruQtoA" fontName="Segoe UI"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u70S6sZxEfCppuBZruQtoA"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_u70S68ZxEfCppuBZruQtoA" type="3001" element="_u7rwDMZxEfCppuBZruQtoA">
-              <children xmi:type="notation:Node" xmi:id="_u70S7sZxEfCppuBZruQtoA" type="5001">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_u70S78ZxEfCppuBZruQtoA" y="5"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_u76ZgMZxEfCppuBZruQtoA" type="3005" element="_u7rwDcZxEfCppuBZruQtoA">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_u76ZgcZxEfCppuBZruQtoA" fontName="Segoe UI"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u76ZgsZxEfCppuBZruQtoA"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_u70S7MZxEfCppuBZruQtoA" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u70S7cZxEfCppuBZruQtoA" x="-68" y="635" width="10" height="10"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_5DAlUMZxEfCppuBZruQtoA" type="3001" element="_5C8T6MZxEfCppuBZruQtoA">
-              <children xmi:type="notation:Node" xmi:id="_5DAlU8ZxEfCppuBZruQtoA" type="5001">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_5DAlVMZxEfCppuBZruQtoA" x="-1"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_5DBMYMZxEfCppuBZruQtoA" type="3003" element="_5C8T6cZxEfCppuBZruQtoA">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_5DBMYcZxEfCppuBZruQtoA" fontName="Segoe UI"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5DBMYsZxEfCppuBZruQtoA"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_21u1cMZxEfCppuBZruQtoA" type="3001" element="_21jPQMZxEfCppuBZruQtoA">
-                <children xmi:type="notation:Node" xmi:id="_21vcgMZxEfCppuBZruQtoA" type="5001">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_21vcgcZxEfCppuBZruQtoA" y="5"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_21vcgsZxEfCppuBZruQtoA" type="3003" element="_21jPQcZxEfCppuBZruQtoA">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_21vcg8ZxEfCppuBZruQtoA" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_21vchMZxEfCppuBZruQtoA"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_21u1ccZxEfCppuBZruQtoA" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_21u1csZxEfCppuBZruQtoA" x="262" y="32" width="100" height="39"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_5DAlUcZxEfCppuBZruQtoA" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5DAlUsZxEfCppuBZruQtoA" x="-68" y="129" width="10" height="81"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_DxPCkMZyEfCppuBZruQtoA" type="3001" element="_DxKKGMZyEfCppuBZruQtoA">
-              <children xmi:type="notation:Node" xmi:id="_DxPCk8ZyEfCppuBZruQtoA" type="5001">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_DxPClMZyEfCppuBZruQtoA" x="-1"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_DxPpoMZyEfCppuBZruQtoA" type="3003" element="_DxKKGcZyEfCppuBZruQtoA">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_DxPpocZyEfCppuBZruQtoA" fontName="Segoe UI"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DxPposZyEfCppuBZruQtoA"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_EVVOIMZyEfCppuBZruQtoA" type="3001" element="_EVK2EsZyEfCppuBZruQtoA">
-                <children xmi:type="notation:Node" xmi:id="_EVVOI8ZyEfCppuBZruQtoA" type="5001">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_EVVOJMZyEfCppuBZruQtoA" y="5"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_EVVOJcZyEfCppuBZruQtoA" type="3003" element="_EVK2E8ZyEfCppuBZruQtoA">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_EVVOJsZyEfCppuBZruQtoA" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EVVOJ8ZyEfCppuBZruQtoA"/>
-                </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_EVVOIcZyEfCppuBZruQtoA" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EVVOIsZyEfCppuBZruQtoA" x="2" y="35" width="100" height="30"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_DxPCkcZyEfCppuBZruQtoA" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DxPCksZyEfCppuBZruQtoA" x="-68" y="471" width="10" height="90"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_u70S4cZxEfCppuBZruQtoA" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u70S4sZxEfCppuBZruQtoA" y="42" width="10" height="635"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_u70S5cZxEfCppuBZruQtoA" type="3003" element="_u7rwCMZxEfCppuBZruQtoA">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_u70S5sZxEfCppuBZruQtoA" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u70S58ZxEfCppuBZruQtoA"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_u7zEwcZxEfCppuBZruQtoA" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u7zEwsZxEfCppuBZruQtoA" x="237" y="50" width="150" height="50"/>
-        </children>
         <children xmi:type="notation:Node" xmi:id="_u7zr0sZxEfCppuBZruQtoA" type="2001" element="_u7rwAMZxEfCppuBZruQtoA">
           <children xmi:type="notation:Node" xmi:id="_u7zr1cZxEfCppuBZruQtoA" type="5002">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_u7zr1sZxEfCppuBZruQtoA" y="5"/>
@@ -1798,7 +1759,7 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u7_5EsZxEfCppuBZruQtoA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_u77nocZxEfCppuBZruQtoA" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u77nosZxEfCppuBZruQtoA" x="-68" y="635" width="10" height="10"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u77nosZxEfCppuBZruQtoA" x="-68" y="737" width="10" height="10"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_zuibAMZxEfCppuBZruQtoA" type="3001" element="_zuUYkMZxEfCppuBZruQtoA">
               <children xmi:type="notation:Node" xmi:id="_zuibA8ZxEfCppuBZruQtoA" type="5001">
@@ -1828,20 +1789,20 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0qMyB8ZxEfCppuBZruQtoA"/>
                 </children>
                 <styles xmi:type="notation:ShapeStyle" xmi:id="_0qMyAcZxEfCppuBZruQtoA" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0qMyAsZxEfCppuBZruQtoA" x="422" y="20" width="100" height="63"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0qMyAsZxEfCppuBZruQtoA" x="455" y="30" width="100" height="63"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_9w4CocZxEfCppuBZruQtoA" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9w4CosZxEfCppuBZruQtoA" x="-68" y="337" width="10" height="113"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9w4CosZxEfCppuBZruQtoA" x="-68" y="394" width="10" height="113"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_u77AkcZxEfCppuBZruQtoA" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u77AksZxEfCppuBZruQtoA" y="42" width="10" height="635"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u77AksZxEfCppuBZruQtoA" y="42" width="10" height="737"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_u77AlcZxEfCppuBZruQtoA" type="3003" element="_u7rwAcZxEfCppuBZruQtoA">
             <styles xmi:type="notation:ShapeStyle" xmi:id="_u77AlsZxEfCppuBZruQtoA" fontName="Segoe UI"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u77Al8ZxEfCppuBZruQtoA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_u7zr08ZxEfCppuBZruQtoA" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u7zr1MZxEfCppuBZruQtoA" x="397" y="50" width="150" height="50"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u7zr1MZxEfCppuBZruQtoA" x="430" y="50" width="150" height="50"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_u7zr18ZxEfCppuBZruQtoA" type="2001" element="_u7rI8MZxEfCppuBZruQtoA">
           <children xmi:type="notation:Node" xmi:id="_u7zr2sZxEfCppuBZruQtoA" type="5002">
@@ -1864,73 +1825,118 @@
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u8EKgsZxEfCppuBZruQtoA"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_u8BHNMZxEfCppuBZruQtoA" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u8BHNcZxEfCppuBZruQtoA" x="-68" y="635" width="10" height="10"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u8BHNcZxEfCppuBZruQtoA" x="-68" y="737" width="10" height="10"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_8A22gMZxEfCppuBZruQtoA" type="3001" element="_8Ax-DsZxEfCppuBZruQtoA">
-              <children xmi:type="notation:Node" xmi:id="_8A22g8ZxEfCppuBZruQtoA" type="5001">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_8A22hMZxEfCppuBZruQtoA" x="-1"/>
+            <children xmi:type="notation:Node" xmi:id="_32C5oMqoEfCuL5yqWhLSTg" type="3001" element="_319aEMqoEfCuL5yqWhLSTg">
+              <children xmi:type="notation:Node" xmi:id="_32DgsMqoEfCuL5yqWhLSTg" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_32DgscqoEfCuL5yqWhLSTg" x="-1"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_8A3dkMZxEfCppuBZruQtoA" type="3003" element="_8Ax-D8ZxEfCppuBZruQtoA">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_8A3dkcZxEfCppuBZruQtoA" fontName="Segoe UI"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8A3dksZxEfCppuBZruQtoA"/>
+              <children xmi:type="notation:Node" xmi:id="_32EHwMqoEfCuL5yqWhLSTg" type="3003" element="_319aEcqoEfCuL5yqWhLSTg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_32EHwcqoEfCuL5yqWhLSTg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_32EHwsqoEfCuL5yqWhLSTg"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_8ZsNQMZxEfCppuBZruQtoA" type="3001" element="_8Zjqe8ZxEfCppuBZruQtoA">
-                <children xmi:type="notation:Node" xmi:id="_8ZsNQ8ZxEfCppuBZruQtoA" type="5001">
-                  <layoutConstraint xmi:type="notation:Location" xmi:id="_8ZsNRMZxEfCppuBZruQtoA" y="5"/>
+              <children xmi:type="notation:Node" xmi:id="_4RAXUMqoEfCuL5yqWhLSTg" type="3001" element="_4QRXjsqoEfCuL5yqWhLSTg">
+                <children xmi:type="notation:Node" xmi:id="_4RAXU8qoEfCuL5yqWhLSTg" type="5001">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_4RAXVMqoEfCuL5yqWhLSTg" y="5"/>
                 </children>
-                <children xmi:type="notation:Node" xmi:id="_8Zs0UMZxEfCppuBZruQtoA" type="3003" element="_8ZjqfMZxEfCppuBZruQtoA">
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_8Zs0UcZxEfCppuBZruQtoA" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Zs0UsZxEfCppuBZruQtoA"/>
+                <children xmi:type="notation:Node" xmi:id="_4RAXVcqoEfCuL5yqWhLSTg" type="3003" element="_4QR-kMqoEfCuL5yqWhLSTg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_4RAXVsqoEfCuL5yqWhLSTg" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4RAXV8qoEfCuL5yqWhLSTg"/>
                 </children>
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_8ZsNQcZxEfCppuBZruQtoA" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8ZsNQsZxEfCppuBZruQtoA" x="2" y="11" width="100" height="58"/>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_4RAXUcqoEfCuL5yqWhLSTg" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4RAXUsqoEfCuL5yqWhLSTg" x="2" y="31" width="100" height="58"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_8A22gcZxEfCppuBZruQtoA" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8A22gsZxEfCppuBZruQtoA" x="-68" y="228" width="10" height="94"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_32C5ocqoEfCuL5yqWhLSTg" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_32C5osqoEfCuL5yqWhLSTg" x="-68" y="257" width="10" height="114"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_u7_5FMZxEfCppuBZruQtoA" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u7_5FcZxEfCppuBZruQtoA" y="42" width="10" height="635"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u7_5FcZxEfCppuBZruQtoA" y="42" width="10" height="737"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_u7_5GMZxEfCppuBZruQtoA" type="3003" element="_u7rI8cZxEfCppuBZruQtoA">
             <styles xmi:type="notation:ShapeStyle" xmi:id="_u7_5GcZxEfCppuBZruQtoA" fontName="Segoe UI"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u7_5GsZxEfCppuBZruQtoA"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_u7zr2MZxEfCppuBZruQtoA" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u7zr2cZxEfCppuBZruQtoA" x="557" y="50" width="150" height="50"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u7zr2cZxEfCppuBZruQtoA" x="590" y="50" width="150" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_oxXZgMqoEfCuL5yqWhLSTg" type="2001" element="_ov72IMqoEfCuL5yqWhLSTg">
+          <children xmi:type="notation:Node" xmi:id="_oxYAkMqoEfCuL5yqWhLSTg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_oxYAkcqoEfCuL5yqWhLSTg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oxYAksqoEfCuL5yqWhLSTg" type="3001" element="_ov8dMcqoEfCuL5yqWhLSTg">
+            <children xmi:type="notation:Node" xmi:id="_oxYnoMqoEfCuL5yqWhLSTg" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_oxYnocqoEfCuL5yqWhLSTg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_oxZ1w8qoEfCuL5yqWhLSTg" type="3003" element="_ov8dMsqoEfCuL5yqWhLSTg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_oxZ1xMqoEfCuL5yqWhLSTg" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oxZ1xcqoEfCuL5yqWhLSTg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_oxbD4MqoEfCuL5yqWhLSTg" type="3001" element="_ov9EQMqoEfCuL5yqWhLSTg">
+              <children xmi:type="notation:Node" xmi:id="_oxbq8MqoEfCuL5yqWhLSTg" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_oxbq8cqoEfCuL5yqWhLSTg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_oxlb8MqoEfCuL5yqWhLSTg" type="3005" element="_ov9EQcqoEfCuL5yqWhLSTg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_oxlb8cqoEfCuL5yqWhLSTg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oxlb8sqoEfCuL5yqWhLSTg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_oxbD4cqoEfCuL5yqWhLSTg" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oxbD4sqoEfCuL5yqWhLSTg" x="-68" y="737" width="10" height="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_xS5VsMqoEfCuL5yqWhLSTg" type="3001" element="_xSu9psqoEfCuL5yqWhLSTg">
+              <children xmi:type="notation:Node" xmi:id="_xS58wMqoEfCuL5yqWhLSTg" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_xS58wcqoEfCuL5yqWhLSTg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_xS6j0MqoEfCuL5yqWhLSTg" type="3003" element="_xSu9p8qoEfCuL5yqWhLSTg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_xS6j0cqoEfCuL5yqWhLSTg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xS6j0sqoEfCuL5yqWhLSTg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_rdMGkMqoEfCuL5yqWhLSTg" type="3001" element="_rcFTUMqoEfCuL5yqWhLSTg">
+                <children xmi:type="notation:Node" xmi:id="_rdMGk8qoEfCuL5yqWhLSTg" type="5001">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_rdMGlMqoEfCuL5yqWhLSTg" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_rdMtoMqoEfCuL5yqWhLSTg" type="3003" element="_rcF6YMqoEfCuL5yqWhLSTg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_rdMtocqoEfCuL5yqWhLSTg" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rdMtosqoEfCuL5yqWhLSTg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_rdMGkcqoEfCuL5yqWhLSTg" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rdMGksqoEfCuL5yqWhLSTg" x="135" y="48" width="100" height="32"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_xS5VscqoEfCuL5yqWhLSTg" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xS5VssqoEfCuL5yqWhLSTg" x="-68" y="118" width="10" height="108"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zVQ2EMqoEfCuL5yqWhLSTg" type="3001" element="_zVHFGMqoEfCuL5yqWhLSTg">
+              <children xmi:type="notation:Node" xmi:id="_zVRdIMqoEfCuL5yqWhLSTg" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_zVRdIcqoEfCuL5yqWhLSTg" x="-1"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_zVRdIsqoEfCuL5yqWhLSTg" type="3003" element="_zVHFGcqoEfCuL5yqWhLSTg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_zVRdI8qoEfCuL5yqWhLSTg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zVRdJMqoEfCuL5yqWhLSTg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_tei6UMqoEfCuL5yqWhLSTg" type="3001" element="_tdkp8MqoEfCuL5yqWhLSTg">
+                <children xmi:type="notation:Node" xmi:id="_tejhYMqoEfCuL5yqWhLSTg" type="5001">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_tejhYcqoEfCuL5yqWhLSTg" y="5"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_tejhYsqoEfCuL5yqWhLSTg" type="3003" element="_tdkp8cqoEfCuL5yqWhLSTg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_tejhY8qoEfCuL5yqWhLSTg" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tejhZMqoEfCuL5yqWhLSTg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_tei6UcqoEfCuL5yqWhLSTg" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tei6UsqoEfCuL5yqWhLSTg" x="135" y="57" width="114" height="39"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_zVQ2EcqoEfCuL5yqWhLSTg" fontColor="4210779" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zVQ2EsqoEfCuL5yqWhLSTg" x="-68" y="552" width="10" height="135"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_oxYAk8qoEfCuL5yqWhLSTg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oxYAlMqoEfCuL5yqWhLSTg" y="42" width="10" height="737"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oxZ1wMqoEfCuL5yqWhLSTg" type="3003" element="_ov72IcqoEfCuL5yqWhLSTg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_oxZ1wcqoEfCuL5yqWhLSTg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oxZ1wsqoEfCuL5yqWhLSTg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_oxXZgcqoEfCuL5yqWhLSTg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oxXZgsqoEfCuL5yqWhLSTg" x="234" y="50" width="150" height="50"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_tU3jMcZxEfCppuBZruQtoA"/>
-        <edges xmi:type="notation:Edge" xmi:id="_5DBMY8ZxEfCppuBZruQtoA" type="4001" element="_5C9iEsZxEfCppuBZruQtoA" source="_u77AkMZxEfCppuBZruQtoA" target="_5DAlUMZxEfCppuBZruQtoA">
-          <children xmi:type="notation:Node" xmi:id="_5DBMZ8ZxEfCppuBZruQtoA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5DBMaMZxEfCppuBZruQtoA" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_5DBMacZxEfCppuBZruQtoA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5DBMasZxEfCppuBZruQtoA" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_5DBMa8ZxEfCppuBZruQtoA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5DBMbMZxEfCppuBZruQtoA" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_5DBMZMZxEfCppuBZruQtoA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_5DBMZcZxEfCppuBZruQtoA" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5DBMZsZxEfCppuBZruQtoA" points="[0, 129, 160, 0]$[-159, 129, 1, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_603kgMZxEfCppuBZruQtoA" id="(0.5, 0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_603kgcZxEfCppuBZruQtoA" id="(0.5, 0.0)"/>
-        </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_8A3dk8ZxEfCppuBZruQtoA" type="4001" element="_8AylFcZxEfCppuBZruQtoA" source="_u70S4MZxEfCppuBZruQtoA" target="_8A22gMZxEfCppuBZruQtoA">
-          <children xmi:type="notation:Node" xmi:id="_8A3dl8ZxEfCppuBZruQtoA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8A3dmMZxEfCppuBZruQtoA" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_8A3dmcZxEfCppuBZruQtoA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8A3dmsZxEfCppuBZruQtoA" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_8A3dm8ZxEfCppuBZruQtoA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8A3dnMZxEfCppuBZruQtoA" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_8A3dlMZxEfCppuBZruQtoA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_8A3dlcZxEfCppuBZruQtoA" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8A3dlsZxEfCppuBZruQtoA" points="[0, 228, -320, 0]$[319, 228, -1, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8ZQvcMZxEfCppuBZruQtoA" id="(0.5, 0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8ZQvccZxEfCppuBZruQtoA" id="(0.5, 0.0)"/>
-        </edges>
         <edges xmi:type="notation:Edge" xmi:id="_9w4ptcZxEfCppuBZruQtoA" type="4001" element="_9w0_WMZxEfCppuBZruQtoA" source="_u7_5E8ZxEfCppuBZruQtoA" target="_9w4CoMZxEfCppuBZruQtoA">
           <children xmi:type="notation:Node" xmi:id="_9w5QwMZxEfCppuBZruQtoA" type="6001">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9w5QwcZxEfCppuBZruQtoA" y="-10"/>
@@ -1943,90 +1949,128 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_9w4ptsZxEfCppuBZruQtoA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_9w4pt8ZxEfCppuBZruQtoA" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9w4puMZxEfCppuBZruQtoA" points="[0, 337, 160, 0]$[-163, 337, -3, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9w4puMZxEfCppuBZruQtoA" points="[0, 394, 160, 0]$[-163, 394, -3, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__frt0MZxEfCppuBZruQtoA" id="(0.5, 0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__frt0cZxEfCppuBZruQtoA" id="(0.5, 0.0)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_DxPpo8ZyEfCppuBZruQtoA" type="4001" element="_DxLYOMZyEfCppuBZruQtoA" source="_u77AkMZxEfCppuBZruQtoA" target="_DxPCkMZyEfCppuBZruQtoA">
-          <children xmi:type="notation:Node" xmi:id="_DxPpp8ZyEfCppuBZruQtoA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DxPpqMZyEfCppuBZruQtoA" y="-10"/>
+        <edges xmi:type="notation:Edge" xmi:id="_xS7K4MqoEfCuL5yqWhLSTg" type="4001" element="_xSyoEMqoEfCuL5yqWhLSTg" source="_u77AkMZxEfCppuBZruQtoA" target="_xS5VsMqoEfCuL5yqWhLSTg">
+          <children xmi:type="notation:Node" xmi:id="_xS7K5MqoEfCuL5yqWhLSTg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xS7K5cqoEfCuL5yqWhLSTg" y="-10"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_DxQQsMZyEfCppuBZruQtoA" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DxQQscZyEfCppuBZruQtoA" y="10"/>
+          <children xmi:type="notation:Node" xmi:id="_xS7x8MqoEfCuL5yqWhLSTg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xS7x8cqoEfCuL5yqWhLSTg" y="10"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_DxQQssZyEfCppuBZruQtoA" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DxQQs8ZyEfCppuBZruQtoA" y="10"/>
+          <children xmi:type="notation:Node" xmi:id="_xS7x8sqoEfCuL5yqWhLSTg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xS7x88qoEfCuL5yqWhLSTg" y="10"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_DxPppMZyEfCppuBZruQtoA" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_DxPppcZyEfCppuBZruQtoA" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DxPppsZyEfCppuBZruQtoA" points="[0, 471, 160, 0]$[-163, 471, -3, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EU6XYMZyEfCppuBZruQtoA" id="(0.5, 0.0)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EU6XYcZyEfCppuBZruQtoA" id="(0.5, 0.0)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_xS7K4cqoEfCuL5yqWhLSTg" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_xS7K4sqoEfCuL5yqWhLSTg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xS7K48qoEfCuL5yqWhLSTg" points="[0, 118, 320, 0]$[-320, 118, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xvOFUMqoEfCuL5yqWhLSTg" id="(0.5, 0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xvOFUcqoEfCuL5yqWhLSTg" id="(0.5, 0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zVSEMMqoEfCuL5yqWhLSTg" type="4001" element="_zVJhXMqoEfCuL5yqWhLSTg" source="_u77AkMZxEfCppuBZruQtoA" target="_zVQ2EMqoEfCuL5yqWhLSTg">
+          <children xmi:type="notation:Node" xmi:id="_zVSENMqoEfCuL5yqWhLSTg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zVSENcqoEfCuL5yqWhLSTg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zVSENsqoEfCuL5yqWhLSTg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zVSEN8qoEfCuL5yqWhLSTg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zVSEOMqoEfCuL5yqWhLSTg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zVSEOcqoEfCuL5yqWhLSTg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zVSEMcqoEfCuL5yqWhLSTg" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zVSEMsqoEfCuL5yqWhLSTg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zVSEM8qoEfCuL5yqWhLSTg" points="[0, 552, 320, 0]$[-319, 552, 1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9kpbMMqoEfCuL5yqWhLSTg" id="(0.5, 0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9kpbMcqoEfCuL5yqWhLSTg" id="(0.5, 0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_32EHw8qoEfCuL5yqWhLSTg" type="4001" element="_31-BLMqoEfCuL5yqWhLSTg" source="_oxYAksqoEfCuL5yqWhLSTg" target="_32C5oMqoEfCuL5yqWhLSTg">
+          <children xmi:type="notation:Node" xmi:id="_32Eu0MqoEfCuL5yqWhLSTg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_32Eu0cqoEfCuL5yqWhLSTg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_32Eu0sqoEfCuL5yqWhLSTg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_32Eu08qoEfCuL5yqWhLSTg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_32Eu1MqoEfCuL5yqWhLSTg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_32Eu1cqoEfCuL5yqWhLSTg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_32EHxMqoEfCuL5yqWhLSTg" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_32EHxcqoEfCuL5yqWhLSTg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_32EHxsqoEfCuL5yqWhLSTg" points="[0, 257, -480, 0]$[480, 257, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6BWTkMqoEfCuL5yqWhLSTg" id="(0.5, 0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6BWTkcqoEfCuL5yqWhLSTg" id="(0.5, 0.0)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_tU4xUMZxEfCppuBZruQtoA" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_tU4xUcZxEfCppuBZruQtoA"/>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_u7rwB8ZxEfCppuBZruQtoA" name="Monitoring operator" width="15" height="5" resizeKind="EAST_WEST">
-      <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#b390e4e3-1839-44ad-be2a-7a0cd55663f7"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#b390e4e3-1839-44ad-be2a-7a0cd55663f7"/>
-      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_u7rwEMZxEfCppuBZruQtoA" x="237" y="50" height="50" width="150"/>
-      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_u7rwCsZxEfCppuBZruQtoA" outgoingEdges="_8AylFcZxEfCppuBZruQtoA" width="1" height="40" resizeKind="NSEW">
-        <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#b390e4e3-1839-44ad-be2a-7a0cd55663f7"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#b390e4e3-1839-44ad-be2a-7a0cd55663f7"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_u7rwDMZxEfCppuBZruQtoA" width="1" height="1">
-          <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#b390e4e3-1839-44ad-be2a-7a0cd55663f7"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#b390e4e3-1839-44ad-be2a-7a0cd55663f7"/>
-          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_u7rwDcZxEfCppuBZruQtoA" showIcon="false" labelPosition="node" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/handlelifeline.svg">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ov72IMqoEfCuL5yqWhLSTg" name="Farmer" width="15" height="5" resizeKind="EAST_WEST">
+      <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#8b6d0d51-871b-4a55-8dc0-8ffbad171174"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#8b6d0d51-871b-4a55-8dc0-8ffbad171174"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#faed972e-02e3-4dd3-a7cb-8545b280deb5"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9cc7bb50-f0de-47d3-9ef5-33b2e772f1c0"/>
+      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_ov-SYMqoEfCuL5yqWhLSTg" x="234" y="50" height="50" width="150"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_ov8dMcqoEfCuL5yqWhLSTg" outgoingEdges="_31-BLMqoEfCuL5yqWhLSTg" width="1" height="40" resizeKind="NSEW">
+        <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#8b6d0d51-871b-4a55-8dc0-8ffbad171174"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#8b6d0d51-871b-4a55-8dc0-8ffbad171174"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#faed972e-02e3-4dd3-a7cb-8545b280deb5"/>
+        <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9cc7bb50-f0de-47d3-9ef5-33b2e772f1c0"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_ov9EQMqoEfCuL5yqWhLSTg" width="1" height="1">
+          <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#8b6d0d51-871b-4a55-8dc0-8ffbad171174"/>
+          <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#8b6d0d51-871b-4a55-8dc0-8ffbad171174"/>
+          <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#faed972e-02e3-4dd3-a7cb-8545b280deb5"/>
+          <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9cc7bb50-f0de-47d3-9ef5-33b2e772f1c0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ov9EQcqoEfCuL5yqWhLSTg" showIcon="false" labelPosition="node" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/handlelifeline.svg">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='endOfLifeOA']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_2:EndOfLifeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='endOfLifeOA']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_5C8T6MZxEfCppuBZruQtoA" incomingEdges="_5C9iEsZxEfCppuBZruQtoA" width="1" height="3" resizeKind="NSEW">
-          <target xmi:type="org.polarsys.capella.core.data.interaction:Execution" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#82a629b6-b5e0-4353-ad43-5709032b62c9"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:Execution" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#82a629b6-b5e0-4353-ad43-5709032b62c9"/>
-          <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_5DHTAMZxEfCppuBZruQtoA" x="307" y="229" height="81" width="10"/>
-          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_21jPQMZxEfCppuBZruQtoA" name="Check malfunction" width="10" height="3" resizeKind="NSEW">
-            <target xmi:type="org.polarsys.capella.core.data.interaction:StateFragment" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#3ea683d6-c8ba-4067-bfd6-c7ec4e2de686"/>
-            <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:StateFragment" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#3ea683d6-c8ba-4067-bfd6-c7ec4e2de686"/>
-            <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#f22df78b-1d18-4f84-8584-2f341c3c23e1"/>
-            <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_21jPQ8ZxEfCppuBZruQtoA" x="262" y="261" height="39" width="100"/>
-            <ownedStyle xmi:type="diagram:Square" uid="_21jPQcZxEfCppuBZruQtoA" showIcon="false" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" labelPosition="node" width="10" height="3" color="247,218,116">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_xSu9psqoEfCuL5yqWhLSTg" incomingEdges="_xSyoEMqoEfCuL5yqWhLSTg" width="1" height="3" resizeKind="NSEW">
+          <target xmi:type="org.polarsys.capella.core.data.interaction:Execution" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#083e5d74-0e3b-4b09-99a7-cf4109a7f2a9"/>
+          <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:Execution" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#083e5d74-0e3b-4b09-99a7-cf4109a7f2a9"/>
+          <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_xTZE8MqoEfCuL5yqWhLSTg" x="304" y="218" height="108" width="10"/>
+          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_rcFTUMqoEfCuL5yqWhLSTg" name="Check alarm information" width="10" height="3" resizeKind="NSEW">
+            <target xmi:type="org.polarsys.capella.core.data.interaction:StateFragment" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#2fe249d0-9da5-4e9e-9e25-f1bf34c04f88"/>
+            <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:StateFragment" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#2fe249d0-9da5-4e9e-9e25-f1bf34c04f88"/>
+            <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#8e46b72d-b587-4c9b-96d5-e63005acc5d7"/>
+            <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_rcGhcMqoEfCuL5yqWhLSTg" x="259" y="266" height="32" width="100"/>
+            <ownedStyle xmi:type="diagram:Square" uid="_rcF6YMqoEfCuL5yqWhLSTg" showIcon="false" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" labelPosition="node" width="10" height="3" color="247,218,116">
               <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='Execution%20OA']/@borderedNodeMappings[name='InteractionState%20Mapping%20OA']/@style"/>
             </ownedStyle>
             <actualMapping xmi:type="description_2:StateMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='Execution%20OA']/@borderedNodeMappings[name='InteractionState%20Mapping%20OA']"/>
           </ownedBorderedNodes>
-          <ownedStyle xmi:type="diagram:Square" uid="_5C8T6cZxEfCppuBZruQtoA" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" width="1" height="3" color="247,218,116">
+          <ownedStyle xmi:type="diagram:Square" uid="_xSu9p8qoEfCuL5yqWhLSTg" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" width="1" height="3" color="247,218,116">
             <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='Execution%20OA']/@conditionnalStyles.0/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_2:ExecutionMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='Execution%20OA']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_DxKKGMZyEfCppuBZruQtoA" incomingEdges="_DxLYOMZyEfCppuBZruQtoA" width="1" height="3" resizeKind="NSEW">
-          <target xmi:type="org.polarsys.capella.core.data.interaction:Execution" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#f50188d1-fe44-495b-98f4-40a417b215e3"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:Execution" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#f50188d1-fe44-495b-98f4-40a417b215e3"/>
-          <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_DxXlcMZyEfCppuBZruQtoA" x="307" y="571" height="90" width="10"/>
-          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_EVK2EsZyEfCppuBZruQtoA" name="Close alarm" width="10" height="3" resizeKind="NSEW">
-            <target xmi:type="org.polarsys.capella.core.data.interaction:StateFragment" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#dd611261-c9ca-4dcb-be73-b6ff46b1230f"/>
-            <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:StateFragment" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#dd611261-c9ca-4dcb-be73-b6ff46b1230f"/>
-            <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9670f01c-593c-482b-8f99-7804a5d08f4d"/>
-            <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_EVN5YMZyEfCppuBZruQtoA" x="262" y="606" height="30" width="100"/>
-            <ownedStyle xmi:type="diagram:Square" uid="_EVK2E8ZyEfCppuBZruQtoA" showIcon="false" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" labelPosition="node" width="10" height="3" color="247,218,116">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_zVHFGMqoEfCuL5yqWhLSTg" incomingEdges="_zVJhXMqoEfCuL5yqWhLSTg" width="1" height="3" resizeKind="NSEW">
+          <target xmi:type="org.polarsys.capella.core.data.interaction:Execution" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#50616e3f-8ad2-4b65-9d14-082ccba3c2ab"/>
+          <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:Execution" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#50616e3f-8ad2-4b65-9d14-082ccba3c2ab"/>
+          <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_zVlmMMqoEfCuL5yqWhLSTg" x="304" y="652" height="135" width="10"/>
+          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_tdkp8MqoEfCuL5yqWhLSTg" name="Close alarm" width="10" height="3" resizeKind="NSEW">
+            <target xmi:type="org.polarsys.capella.core.data.interaction:StateFragment" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#18312015-b9c1-44a6-a6e3-6fcacfc94c73"/>
+            <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:StateFragment" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#18312015-b9c1-44a6-a6e3-6fcacfc94c73"/>
+            <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#55ca8808-49fe-4734-bc80-6e351ad96abd"/>
+            <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_tdlRAMqoEfCuL5yqWhLSTg" x="252" y="709" height="39" width="114"/>
+            <ownedStyle xmi:type="diagram:Square" uid="_tdkp8cqoEfCuL5yqWhLSTg" showIcon="false" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" labelPosition="node" width="10" height="3" color="247,218,116">
               <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='Execution%20OA']/@borderedNodeMappings[name='InteractionState%20Mapping%20OA']/@style"/>
             </ownedStyle>
             <actualMapping xmi:type="description_2:StateMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='Execution%20OA']/@borderedNodeMappings[name='InteractionState%20Mapping%20OA']"/>
           </ownedBorderedNodes>
-          <ownedStyle xmi:type="diagram:Square" uid="_DxKKGcZyEfCppuBZruQtoA" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" width="1" height="3" color="247,218,116">
+          <ownedStyle xmi:type="diagram:Square" uid="_zVHFGcqoEfCuL5yqWhLSTg" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" width="1" height="3" color="247,218,116">
             <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='Execution%20OA']/@conditionnalStyles.0/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_2:ExecutionMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='Execution%20OA']"/>
         </ownedBorderedNodes>
-        <ownedStyle xmi:type="diagram:Square" uid="_u7rwC8ZxEfCppuBZruQtoA" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="128,128,128" labelPosition="node" width="1" height="40">
+        <ownedStyle xmi:type="diagram:Square" uid="_ov8dMsqoEfCuL5yqWhLSTg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="128,128,128" labelPosition="node" width="1" height="40">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_2:ExecutionMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']"/>
       </ownedBorderedNodes>
-      <ownedStyle xmi:type="diagram:Square" uid="_u7rwCMZxEfCppuBZruQtoA" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" width="15" height="5" color="221,221,200">
+      <ownedStyle xmi:type="diagram:Square" uid="_ov72IcqoEfCuL5yqWhLSTg" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" width="15" height="5" color="221,221,200">
         <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_2:InstanceRoleMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']"/>
@@ -2036,8 +2080,8 @@
       <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9c4b1ade-131a-4ca7-931e-44bfcbed8c24"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#41b00d9d-63e3-43a2-b15a-5ad00bb66319"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#0cbf4cc5-7ed3-409c-8b15-c6456050df8d"/>
-      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_u7rwD8ZxEfCppuBZruQtoA" x="397" y="50" height="50" width="150"/>
-      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_u7rwA8ZxEfCppuBZruQtoA" outgoingEdges="_5C9iEsZxEfCppuBZruQtoA _DxLYOMZyEfCppuBZruQtoA" width="1" height="40" resizeKind="NSEW">
+      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_u7rwD8ZxEfCppuBZruQtoA" x="430" y="50" height="50" width="150"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_u7rwA8ZxEfCppuBZruQtoA" outgoingEdges="_xSyoEMqoEfCuL5yqWhLSTg _zVJhXMqoEfCuL5yqWhLSTg" width="1" height="40" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9c4b1ade-131a-4ca7-931e-44bfcbed8c24"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9c4b1ade-131a-4ca7-931e-44bfcbed8c24"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#41b00d9d-63e3-43a2-b15a-5ad00bb66319"/>
@@ -2056,7 +2100,7 @@
           <target xmi:type="org.polarsys.capella.core.data.interaction:StateFragment" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#c66c4b12-50da-49a9-9913-878f4937c7ac"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:StateFragment" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#c66c4b12-50da-49a9-9913-878f4937c7ac"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#8e5233bd-a65f-4371-9812-111c228ef52a"/>
-          <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_zuU_osZxEfCppuBZruQtoA" x="422" y="149" height="57" width="100"/>
+          <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_zuU_osZxEfCppuBZruQtoA" x="455" y="149" height="57" width="100"/>
           <ownedStyle xmi:type="diagram:Square" uid="_zuU_oMZxEfCppuBZruQtoA" showIcon="false" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" labelPosition="node" width="10" height="3" color="247,218,116">
             <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='Execution%20OA']/@borderedNodeMappings[name='InteractionState%20Mapping%20OA']/@style"/>
           </ownedStyle>
@@ -2065,12 +2109,12 @@
         <ownedBorderedNodes xmi:type="diagram:DNode" uid="_9w0YUMZxEfCppuBZruQtoA" incomingEdges="_9w0_WMZxEfCppuBZruQtoA" width="1" height="3" resizeKind="NSEW">
           <target xmi:type="org.polarsys.capella.core.data.interaction:Execution" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#4c357018-924b-4b94-8ce5-3e6c08ed1b84"/>
           <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:Execution" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#4c357018-924b-4b94-8ce5-3e6c08ed1b84"/>
-          <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_9xBMkMZxEfCppuBZruQtoA" x="467" y="437" height="113" width="10"/>
+          <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_9xBMkMZxEfCppuBZruQtoA" x="500" y="494" height="113" width="10"/>
           <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0qAkwMZxEfCppuBZruQtoA" name="Check repaired sensor well functioning" width="10" height="3" resizeKind="NSEW">
             <target xmi:type="org.polarsys.capella.core.data.interaction:StateFragment" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#965c6dc4-fd13-4789-9181-aa91b0c5da50"/>
             <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:StateFragment" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#965c6dc4-fd13-4789-9181-aa91b0c5da50"/>
             <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#4922be31-cec2-499e-b471-4447502c6de8"/>
-            <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_0qAkw8ZxEfCppuBZruQtoA" x="422" y="457" height="63" width="100"/>
+            <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_0qAkw8ZxEfCppuBZruQtoA" x="455" y="524" height="63" width="100"/>
             <ownedStyle xmi:type="diagram:Square" uid="_0qAkwcZxEfCppuBZruQtoA" showIcon="false" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" labelPosition="node" width="10" height="3" color="247,218,116">
               <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='Execution%20OA']/@borderedNodeMappings[name='InteractionState%20Mapping%20OA']/@style"/>
             </ownedStyle>
@@ -2096,7 +2140,7 @@
       <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#ed36d2e2-1ecf-4944-8ce5-712cc07cb9a5"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#f1191a99-062b-42ad-94f2-b017d20562b2"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:Entity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#b01524e3-6b14-421a-a46c-680927176ffc"/>
-      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_u7rwDsZxEfCppuBZruQtoA" x="557" y="50" height="50" width="150"/>
+      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_u7rwDsZxEfCppuBZruQtoA" x="590" y="50" height="50" width="150"/>
       <ownedBorderedNodes xmi:type="diagram:DNode" uid="_u7rI88ZxEfCppuBZruQtoA" outgoingEdges="_9w0_WMZxEfCppuBZruQtoA" width="1" height="40" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#ed36d2e2-1ecf-4944-8ce5-712cc07cb9a5"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#ed36d2e2-1ecf-4944-8ce5-712cc07cb9a5"/>
@@ -2112,21 +2156,21 @@
           </ownedStyle>
           <actualMapping xmi:type="description_2:EndOfLifeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='endOfLifeOA']"/>
         </ownedBorderedNodes>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_8Ax-DsZxEfCppuBZruQtoA" incomingEdges="_8AylFcZxEfCppuBZruQtoA" width="1" height="3" resizeKind="NSEW">
-          <target xmi:type="org.polarsys.capella.core.data.interaction:Execution" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#d92025ab-e6c0-48d0-a1d5-7d79de5b8cbd"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:Execution" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#d92025ab-e6c0-48d0-a1d5-7d79de5b8cbd"/>
-          <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_8A89IMZxEfCppuBZruQtoA" x="627" y="328" height="94" width="10"/>
-          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_8Zjqe8ZxEfCppuBZruQtoA" name="Repair malfunction" width="10" height="3" resizeKind="NSEW">
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_319aEMqoEfCuL5yqWhLSTg" incomingEdges="_31-BLMqoEfCuL5yqWhLSTg" width="1" height="3" resizeKind="NSEW">
+          <target xmi:type="org.polarsys.capella.core.data.interaction:Execution" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#04272749-b153-45b8-bc55-e21ec619577f"/>
+          <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:Execution" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#04272749-b153-45b8-bc55-e21ec619577f"/>
+          <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_32SKMMqoEfCuL5yqWhLSTg" x="660" y="357" height="114" width="10"/>
+          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_4QRXjsqoEfCuL5yqWhLSTg" name="Repair malfunction" width="10" height="3" resizeKind="NSEW">
             <target xmi:type="org.polarsys.capella.core.data.interaction:StateFragment" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#6ec8af75-7749-42c3-ba10-a2b20abcee61"/>
             <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:StateFragment" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#6ec8af75-7749-42c3-ba10-a2b20abcee61"/>
             <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalActivity" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#ad525f95-e909-45ea-a86d-aba3f08646d5"/>
-            <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_8ZmtsMZxEfCppuBZruQtoA" x="582" y="339" height="58" width="100"/>
-            <ownedStyle xmi:type="diagram:Square" uid="_8ZjqfMZxEfCppuBZruQtoA" showIcon="false" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" labelPosition="node" width="10" height="3" color="247,218,116">
+            <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_4QVB4MqoEfCuL5yqWhLSTg" x="615" y="388" height="58" width="100"/>
+            <ownedStyle xmi:type="diagram:Square" uid="_4QR-kMqoEfCuL5yqWhLSTg" showIcon="false" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" labelPosition="node" width="10" height="3" color="247,218,116">
               <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='Execution%20OA']/@borderedNodeMappings[name='InteractionState%20Mapping%20OA']/@style"/>
             </ownedStyle>
             <actualMapping xmi:type="description_2:StateMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='Execution%20OA']/@borderedNodeMappings[name='InteractionState%20Mapping%20OA']"/>
           </ownedBorderedNodes>
-          <ownedStyle xmi:type="diagram:Square" uid="_8Ax-D8ZxEfCppuBZruQtoA" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" width="1" height="3" color="247,218,116">
+          <ownedStyle xmi:type="diagram:Square" uid="_319aEcqoEfCuL5yqWhLSTg" labelColor="91,64,64" borderSize="1" borderSizeComputationExpression="1" borderColor="91,64,64" width="1" height="3" color="247,218,116">
             <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='Execution%20OA']/@conditionnalStyles.0/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_2:ExecutionMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']/@borderedNodeMappings[name='default%20execution%20OA']/@borderedNodeMappings[name='Execution%20OA']"/>
@@ -2141,55 +2185,55 @@
       </ownedStyle>
       <actualMapping xmi:type="description_2:InstanceRoleMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20OA']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_5C9iEsZxEfCppuBZruQtoA" name="malfunction alarm" sourceNode="_u7rwA8ZxEfCppuBZruQtoA" targetNode="_5C8T6MZxEfCppuBZruQtoA">
-      <target xmi:type="org.polarsys.capella.core.data.interaction:SequenceMessage" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#21c289b9-0699-4b30-ae9d-31457996fa3e"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:SequenceMessage" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#21c289b9-0699-4b30-ae9d-31457996fa3e"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:MessageEnd" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#3a254674-7fec-4353-a023-ae5202d5d177"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:MessageEnd" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#7749be0f-05ed-4625-88c5-cd745f6b83c4"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9a0f448e-d655-42d2-b152-1c169eec3b59"/>
-      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_5C_XMMZxEfCppuBZruQtoA" y="229" height="0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_5C9iE8ZxEfCppuBZruQtoA" strokeColor="0,0,0">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@edgeMappings[name='Basic%20message%20mapping%20OA']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_5C9iFMZxEfCppuBZruQtoA" showIcon="false"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_2:BasicMessageMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@edgeMappings[name='Basic%20message%20mapping%20OA']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_8AylFcZxEfCppuBZruQtoA" name="Repair demande" sourceNode="_u7rwCsZxEfCppuBZruQtoA" targetNode="_8Ax-DsZxEfCppuBZruQtoA">
-      <target xmi:type="org.polarsys.capella.core.data.interaction:SequenceMessage" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#19fdbc41-d99b-46c5-abb8-7745795c5340"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:SequenceMessage" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#19fdbc41-d99b-46c5-abb8-7745795c5340"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:MessageEnd" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#f0eb2476-92d1-4794-8ee6-dbc5ffadc55a"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:MessageEnd" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#26a60fe6-d3a8-41fd-b128-3e0de21e021f"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#d2d83851-463d-4191-b165-85259e341b3f"/>
-      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_8A1oYMZxEfCppuBZruQtoA" y="328" height="0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_8AylFsZxEfCppuBZruQtoA" strokeColor="0,0,0">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@edgeMappings[name='Basic%20message%20mapping%20OA']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_8AylF8ZxEfCppuBZruQtoA" showIcon="false"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_2:BasicMessageMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@edgeMappings[name='Basic%20message%20mapping%20OA']"/>
-    </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_9w0_WMZxEfCppuBZruQtoA" name="Sensor repaired or replaced" sourceNode="_u7rI88ZxEfCppuBZruQtoA" targetNode="_9w0YUMZxEfCppuBZruQtoA">
       <target xmi:type="org.polarsys.capella.core.data.interaction:SequenceMessage" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#22843c5c-959e-4095-9a19-344cf43538c7"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:SequenceMessage" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#22843c5c-959e-4095-9a19-344cf43538c7"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:MessageEnd" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#74edecc3-718f-4f22-9367-fb1fa3f3de2e"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:MessageEnd" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#b1893328-6875-4756-8d34-a9ab700b7a7f"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#6d21afd5-f175-4825-97d2-7610e592edea"/>
-      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_9w20gMZxEfCppuBZruQtoA" y="437" height="0"/>
+      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_9w20gMZxEfCppuBZruQtoA" y="494" height="0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_9w0_WcZxEfCppuBZruQtoA" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@edgeMappings[name='Basic%20message%20mapping%20OA']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_9w0_WsZxEfCppuBZruQtoA" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_2:BasicMessageMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@edgeMappings[name='Basic%20message%20mapping%20OA']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_DxLYOMZyEfCppuBZruQtoA" name="Repair confirmation" sourceNode="_u7rwA8ZxEfCppuBZruQtoA" targetNode="_DxKKGMZyEfCppuBZruQtoA">
-      <target xmi:type="org.polarsys.capella.core.data.interaction:SequenceMessage" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#4385a258-12d5-4b14-8018-355fb96ec61f"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:SequenceMessage" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#4385a258-12d5-4b14-8018-355fb96ec61f"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:MessageEnd" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#978b49ca-ff11-436d-9e04-31e27b4e41a1"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:MessageEnd" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#2d3a740b-9ff8-41f2-b04a-1e5f4c5a21e6"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#7e3678d6-8a1c-49c9-a336-0ef98c9e3ce7"/>
-      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_DxN0cMZyEfCppuBZruQtoA" y="571" height="0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_DxLYOcZyEfCppuBZruQtoA" strokeColor="0,0,0">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_xSyoEMqoEfCuL5yqWhLSTg" name="Alarm triggered" sourceNode="_u7rwA8ZxEfCppuBZruQtoA" targetNode="_xSu9psqoEfCuL5yqWhLSTg">
+      <target xmi:type="org.polarsys.capella.core.data.interaction:SequenceMessage" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#66cd41c1-e3c0-415d-a220-a5a60c23e6d6"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:SequenceMessage" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#66cd41c1-e3c0-415d-a220-a5a60c23e6d6"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:MessageEnd" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#11e3914c-0e76-484d-8200-263af104d01c"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:MessageEnd" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#6b7808f8-ae05-418d-bc88-417f821be277"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#86c03bf3-8d9d-447c-a5dc-299b25c5b698"/>
+      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_xS2SYMqoEfCuL5yqWhLSTg" y="218" height="0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_xSzPEMqoEfCuL5yqWhLSTg" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@edgeMappings[name='Basic%20message%20mapping%20OA']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_DxLYOsZyEfCppuBZruQtoA" showIcon="false"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_xSzPEcqoEfCuL5yqWhLSTg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:BasicMessageMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@edgeMappings[name='Basic%20message%20mapping%20OA']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_zVJhXMqoEfCuL5yqWhLSTg" name="Repair confirmation" sourceNode="_u7rwA8ZxEfCppuBZruQtoA" targetNode="_zVHFGMqoEfCuL5yqWhLSTg">
+      <target xmi:type="org.polarsys.capella.core.data.interaction:SequenceMessage" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#e495349f-6c85-4756-b259-02e9a7ab882c"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:SequenceMessage" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#e495349f-6c85-4756-b259-02e9a7ab882c"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:MessageEnd" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#efeeec8f-2ecf-4d2b-9b20-010dd7e342db"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:MessageEnd" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#082e8768-c875-4a94-b67c-2cfe4e020c3d"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#837b13ce-c99e-4a9f-9f7b-b8d99ef45a59"/>
+      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_zVMkoMqoEfCuL5yqWhLSTg" y="652" height="0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_zVJhXcqoEfCuL5yqWhLSTg" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@edgeMappings[name='Basic%20message%20mapping%20OA']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_zVJhXsqoEfCuL5yqWhLSTg" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_2:BasicMessageMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@edgeMappings[name='Basic%20message%20mapping%20OA']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_31-BLMqoEfCuL5yqWhLSTg" name="Call maintenance company" sourceNode="_ov8dMcqoEfCuL5yqWhLSTg" targetNode="_319aEMqoEfCuL5yqWhLSTg">
+      <target xmi:type="org.polarsys.capella.core.data.interaction:SequenceMessage" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#3998eaa4-2376-4edc-ac2e-8dab6fdc95d0"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:SequenceMessage" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#3998eaa4-2376-4edc-ac2e-8dab6fdc95d0"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:MessageEnd" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#c4245397-bc5a-4b00-b7d7-9ae4e8efb0bd"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:MessageEnd" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#75388c44-3b51-4fb7-b962-121688af5bd7"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#1491802c-195c-4412-8c0c-3953e9777332"/>
+      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_32AdYMqoEfCuL5yqWhLSTg" y="357" height="0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_31-oMMqoEfCuL5yqWhLSTg" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@edgeMappings[name='Basic%20message%20mapping%20OA']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_31-oMcqoEfCuL5yqWhLSTg" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_2:BasicMessageMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Interaction%20Scenario']/@defaultLayer/@edgeMappings[name='Basic%20message%20mapping%20OA']"/>
     </ownedDiagramElements>
@@ -2505,277 +2549,6 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Contextual%20System%20Actors']/@defaultLayer"/>
     <target xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#07a0bae6-dfe4-4878-b06a-17ed0f720e51"/>
   </diagram:DSemanticDiagram>
-  <sequence:SequenceDDiagram uid="_V5fvYMbpEfCpRtUUrq7kuQ">
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_V5qugMbpEfCpRtUUrq7kuQ" source="GMF_DIAGRAMS">
-      <data xmi:type="notation:Diagram" xmi:id="_V5qugcbpEfCpRtUUrq7kuQ" type="Sirius" element="_V5fvYMbpEfCpRtUUrq7kuQ" measurementUnit="Pixel">
-        <children xmi:type="notation:Node" xmi:id="_V6AFssbpEfCpRtUUrq7kuQ" type="2001" element="_V5yDQMbpEfCpRtUUrq7kuQ">
-          <children xmi:type="notation:Node" xmi:id="_V6AswMbpEfCpRtUUrq7kuQ" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_V6AswcbpEfCpRtUUrq7kuQ" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_V6B64MbpEfCpRtUUrq7kuQ" type="3001" element="_V50fgcbpEfCpRtUUrq7kuQ">
-            <children xmi:type="notation:Node" xmi:id="_V6B648bpEfCpRtUUrq7kuQ" type="5001">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_V6B65MbpEfCpRtUUrq7kuQ" y="5"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_V6Ch88bpEfCpRtUUrq7kuQ" type="3003" element="_V51GkMbpEfCpRtUUrq7kuQ">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_V6Ch9MbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V6Ch9cbpEfCpRtUUrq7kuQ"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_V6Ch9sbpEfCpRtUUrq7kuQ" type="3001" element="_V55YAMbpEfCpRtUUrq7kuQ">
-              <children xmi:type="notation:Node" xmi:id="_V6DJAMbpEfCpRtUUrq7kuQ" type="5001">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_V6DJAcbpEfCpRtUUrq7kuQ" y="5"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_V6M6AMbpEfCpRtUUrq7kuQ" type="3005" element="_V55YAcbpEfCpRtUUrq7kuQ">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_V6M6AcbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V6M6AsbpEfCpRtUUrq7kuQ"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_V6Ch98bpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V6Ch-MbpEfCpRtUUrq7kuQ" x="-68" y="395" width="10" height="10"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_V6B64cbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V6B64sbpEfCpRtUUrq7kuQ" y="42" width="10" height="395"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_V6Ch8MbpEfCpRtUUrq7kuQ" type="3003" element="_V5z4cMbpEfCpRtUUrq7kuQ">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_V6Ch8cbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V6Ch8sbpEfCpRtUUrq7kuQ"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_V6AFs8bpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V6AFtMbpEfCpRtUUrq7kuQ" x="50" y="50" width="150" height="50"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_lrlvIMbpEfCpRtUUrq7kuQ" type="2001" element="_lrS0MMbpEfCpRtUUrq7kuQ">
-          <children xmi:type="notation:Node" xmi:id="_lrmWMMbpEfCpRtUUrq7kuQ" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_lrmWMcbpEfCpRtUUrq7kuQ" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_lrnkUsbpEfCpRtUUrq7kuQ" type="3001" element="_lrTbQMbpEfCpRtUUrq7kuQ">
-            <children xmi:type="notation:Node" xmi:id="_lrnkVcbpEfCpRtUUrq7kuQ" type="5001">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_lrnkVsbpEfCpRtUUrq7kuQ" y="5"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_lroLY8bpEfCpRtUUrq7kuQ" type="3003" element="_lrTbQcbpEfCpRtUUrq7kuQ">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_lroLZMbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lroLZcbpEfCpRtUUrq7kuQ"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_lroLZsbpEfCpRtUUrq7kuQ" type="3001" element="_lrTbQsbpEfCpRtUUrq7kuQ">
-              <children xmi:type="notation:Node" xmi:id="_lroycMbpEfCpRtUUrq7kuQ" type="5001">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_lroyccbpEfCpRtUUrq7kuQ" y="5"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_lruSAMbpEfCpRtUUrq7kuQ" type="3005" element="_lrTbQ8bpEfCpRtUUrq7kuQ">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_lruSAcbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lruSAsbpEfCpRtUUrq7kuQ"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_lroLZ8bpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lroLaMbpEfCpRtUUrq7kuQ" x="-43" y="395" width="10" height="10"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_lrnkU8bpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lrnkVMbpEfCpRtUUrq7kuQ" y="42" width="10" height="395"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_lroLYMbpEfCpRtUUrq7kuQ" type="3003" element="_lrS0McbpEfCpRtUUrq7kuQ">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_lroLYcbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lroLYsbpEfCpRtUUrq7kuQ"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_lrlvIcbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lrlvIsbpEfCpRtUUrq7kuQ" x="239" y="50" width="100" height="50"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_lrmWMsbpEfCpRtUUrq7kuQ" type="2001" element="_lrRmEMbpEfCpRtUUrq7kuQ">
-          <children xmi:type="notation:Node" xmi:id="_lrm9QMbpEfCpRtUUrq7kuQ" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_lrm9QcbpEfCpRtUUrq7kuQ" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_lru5EMbpEfCpRtUUrq7kuQ" type="3001" element="_lrSNIcbpEfCpRtUUrq7kuQ">
-            <children xmi:type="notation:Node" xmi:id="_lru5E8bpEfCpRtUUrq7kuQ" type="5001">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_lru5FMbpEfCpRtUUrq7kuQ" y="5"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_lrvgI8bpEfCpRtUUrq7kuQ" type="3003" element="_lrSNIsbpEfCpRtUUrq7kuQ">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_lrvgJMbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lrvgJcbpEfCpRtUUrq7kuQ"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_lrvgJsbpEfCpRtUUrq7kuQ" type="3001" element="_lrSNI8bpEfCpRtUUrq7kuQ">
-              <children xmi:type="notation:Node" xmi:id="_lrwHMMbpEfCpRtUUrq7kuQ" type="5001">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_lrwHMcbpEfCpRtUUrq7kuQ" y="5"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_lr0YoMbpEfCpRtUUrq7kuQ" type="3005" element="_lrSNJMbpEfCpRtUUrq7kuQ">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_lr0YocbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lr0YosbpEfCpRtUUrq7kuQ"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_lrvgJ8bpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lrvgKMbpEfCpRtUUrq7kuQ" x="-43" y="395" width="10" height="10"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_lru5EcbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lru5EsbpEfCpRtUUrq7kuQ" y="42" width="10" height="395"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_lrvgIMbpEfCpRtUUrq7kuQ" type="3003" element="_lrRmEcbpEfCpRtUUrq7kuQ">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_lrvgIcbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lrvgIsbpEfCpRtUUrq7kuQ"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_lrmWM8bpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lrmWNMbpEfCpRtUUrq7kuQ" x="349" y="50" width="100" height="50"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_lrm9QsbpEfCpRtUUrq7kuQ" type="2001" element="_lrMtkMbpEfCpRtUUrq7kuQ">
-          <children xmi:type="notation:Node" xmi:id="_lrnkUMbpEfCpRtUUrq7kuQ" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_lrnkUcbpEfCpRtUUrq7kuQ" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_lr0_sMbpEfCpRtUUrq7kuQ" type="3001" element="_lrPw4MbpEfCpRtUUrq7kuQ">
-            <children xmi:type="notation:Node" xmi:id="_lr0_s8bpEfCpRtUUrq7kuQ" type="5001">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_lr0_tMbpEfCpRtUUrq7kuQ" y="5"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_lr1mw8bpEfCpRtUUrq7kuQ" type="3003" element="_lrPw4cbpEfCpRtUUrq7kuQ">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_lr1mxMbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lr1mxcbpEfCpRtUUrq7kuQ"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_lr1mxsbpEfCpRtUUrq7kuQ" type="3001" element="_lrQX8MbpEfCpRtUUrq7kuQ">
-              <children xmi:type="notation:Node" xmi:id="_lr2N0MbpEfCpRtUUrq7kuQ" type="5001">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_lr2N0cbpEfCpRtUUrq7kuQ" y="5"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_lr6fQMbpEfCpRtUUrq7kuQ" type="3005" element="_lrQ_AMbpEfCpRtUUrq7kuQ">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_lr6fQcbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lr6fQsbpEfCpRtUUrq7kuQ"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_lr1mx8bpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lr1myMbpEfCpRtUUrq7kuQ" x="-43" y="395" width="10" height="10"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_lr0_scbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lr0_ssbpEfCpRtUUrq7kuQ" y="42" width="10" height="395"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_lr1mwMbpEfCpRtUUrq7kuQ" type="3003" element="_lrN7sMbpEfCpRtUUrq7kuQ">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_lr1mwcbpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lr1mwsbpEfCpRtUUrq7kuQ"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_lrm9Q8bpEfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lrm9RMbpEfCpRtUUrq7kuQ" x="459" y="50" width="100" height="50"/>
-        </children>
-        <styles xmi:type="notation:DiagramStyle" xmi:id="_V5qugsbpEfCpRtUUrq7kuQ"/>
-      </data>
-    </ownedAnnotationEntries>
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_V6AFsMbpEfCpRtUUrq7kuQ" source="DANNOTATION_CUSTOMIZATION_KEY">
-      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_V6AFscbpEfCpRtUUrq7kuQ"/>
-    </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_V5yDQMbpEfCpRtUUrq7kuQ" name="System" width="15" height="5" resizeKind="EAST_WEST">
-      <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#84b9794c-c758-4e01-b258-2f53b2aa15ee"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#07a0bae6-dfe4-4878-b06a-17ed0f720e51"/>
-      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_V901wMbpEfCpRtUUrq7kuQ" x="50" y="50" height="50" width="150"/>
-      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_V50fgcbpEfCpRtUUrq7kuQ" width="1" height="40" resizeKind="NSEW">
-        <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#84b9794c-c758-4e01-b258-2f53b2aa15ee"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#07a0bae6-dfe4-4878-b06a-17ed0f720e51"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_V55YAMbpEfCpRtUUrq7kuQ" width="1" height="1">
-          <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#4eb6a57f-713a-4dd9-8c4c-5dfc056d2120"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#84b9794c-c758-4e01-b258-2f53b2aa15ee"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#07a0bae6-dfe4-4878-b06a-17ed0f720e51"/>
-          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_V55YAcbpEfCpRtUUrq7kuQ" showIcon="false" labelPosition="node" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/handlelifeline.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']/@borderedNodeMappings[name='endOfLifeDF']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_2:EndOfLifeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']/@borderedNodeMappings[name='endOfLifeDF']"/>
-        </ownedBorderedNodes>
-        <ownedStyle xmi:type="diagram:Square" uid="_V51GkMbpEfCpRtUUrq7kuQ" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="128,128,128" labelPosition="node" width="1" height="40">
-          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_2:ExecutionMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']"/>
-      </ownedBorderedNodes>
-      <ownedStyle xmi:type="diagram:Square" uid="_V5z4cMbpEfCpRtUUrq7kuQ" borderSize="1" borderSizeComputationExpression="1" borderColor="74,74,151" labelPosition="node" width="15" height="5" color="150,177,218">
-        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@conditionnalStyles.4/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_2:InstanceRoleMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_lrS0MMbpEfCpRtUUrq7kuQ" name="Smart irrigation system" width="10" height="5" resizeKind="EAST_WEST">
-      <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#544b0bff-77f9-4a5d-bddb-c87f2b98e58b"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#544b0bff-77f9-4a5d-bddb-c87f2b98e58b"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#c471154c-51c7-49cf-ab1f-447d79b720cd"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#62ae6d31-afd5-4f8f-a918-bdd75fac49f4"/>
-      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_lrUCUsbpEfCpRtUUrq7kuQ" x="239" y="50" height="50" width="100"/>
-      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_lrTbQMbpEfCpRtUUrq7kuQ" width="1" height="40" resizeKind="NSEW">
-        <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#544b0bff-77f9-4a5d-bddb-c87f2b98e58b"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#544b0bff-77f9-4a5d-bddb-c87f2b98e58b"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#c471154c-51c7-49cf-ab1f-447d79b720cd"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#62ae6d31-afd5-4f8f-a918-bdd75fac49f4"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_lrTbQsbpEfCpRtUUrq7kuQ" width="1" height="1">
-          <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#544b0bff-77f9-4a5d-bddb-c87f2b98e58b"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#544b0bff-77f9-4a5d-bddb-c87f2b98e58b"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#c471154c-51c7-49cf-ab1f-447d79b720cd"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#62ae6d31-afd5-4f8f-a918-bdd75fac49f4"/>
-          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_lrTbQ8bpEfCpRtUUrq7kuQ" showIcon="false" labelPosition="node" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/handlelifeline.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']/@borderedNodeMappings[name='endOfLifeDF']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_2:EndOfLifeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']/@borderedNodeMappings[name='endOfLifeDF']"/>
-        </ownedBorderedNodes>
-        <ownedStyle xmi:type="diagram:Square" uid="_lrTbQcbpEfCpRtUUrq7kuQ" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="128,128,128" labelPosition="node" width="1" height="40">
-          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_2:ExecutionMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']"/>
-      </ownedBorderedNodes>
-      <ownedStyle xmi:type="diagram:Square" uid="_lrS0McbpEfCpRtUUrq7kuQ" borderSize="1" borderSizeComputationExpression="1" borderColor="74,74,151" labelPosition="node" width="10" height="5" color="198,230,255">
-        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@conditionnalStyles.0/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_2:InstanceRoleMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_lrRmEMbpEfCpRtUUrq7kuQ" name="Maintenance company" width="10" height="5" resizeKind="EAST_WEST">
-      <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#62354d97-2315-4a3b-b925-3d1b52bd988d"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#62354d97-2315-4a3b-b925-3d1b52bd988d"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#7bb4a671-5b23-49c2-a74f-d350f3f160bf"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9923abac-ce99-4ea2-b1cd-0861fb5412bb"/>
-      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_lrUCUcbpEfCpRtUUrq7kuQ" x="349" y="50" height="50" width="100"/>
-      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_lrSNIcbpEfCpRtUUrq7kuQ" width="1" height="40" resizeKind="NSEW">
-        <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#62354d97-2315-4a3b-b925-3d1b52bd988d"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#62354d97-2315-4a3b-b925-3d1b52bd988d"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#7bb4a671-5b23-49c2-a74f-d350f3f160bf"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9923abac-ce99-4ea2-b1cd-0861fb5412bb"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_lrSNI8bpEfCpRtUUrq7kuQ" width="1" height="1">
-          <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#62354d97-2315-4a3b-b925-3d1b52bd988d"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#62354d97-2315-4a3b-b925-3d1b52bd988d"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#7bb4a671-5b23-49c2-a74f-d350f3f160bf"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#9923abac-ce99-4ea2-b1cd-0861fb5412bb"/>
-          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_lrSNJMbpEfCpRtUUrq7kuQ" showIcon="false" labelPosition="node" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/handlelifeline.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']/@borderedNodeMappings[name='endOfLifeDF']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_2:EndOfLifeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']/@borderedNodeMappings[name='endOfLifeDF']"/>
-        </ownedBorderedNodes>
-        <ownedStyle xmi:type="diagram:Square" uid="_lrSNIsbpEfCpRtUUrq7kuQ" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="128,128,128" labelPosition="node" width="1" height="40">
-          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_2:ExecutionMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']"/>
-      </ownedBorderedNodes>
-      <ownedStyle xmi:type="diagram:Square" uid="_lrRmEcbpEfCpRtUUrq7kuQ" borderSize="1" borderSizeComputationExpression="1" borderColor="74,74,151" labelPosition="node" width="10" height="5" color="198,230,255">
-        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@conditionnalStyles.0/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_2:InstanceRoleMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_lrMtkMbpEfCpRtUUrq7kuQ" name="Farmer" width="10" height="5" resizeKind="EAST_WEST">
-      <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#ff1c2bdf-a18c-4d25-a75b-9cc1425007b1"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#ff1c2bdf-a18c-4d25-a75b-9cc1425007b1"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#33f9f178-324c-4f61-891f-e6465b8cee76"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#c62c6d7a-1b3e-4f65-92b4-6d2adb729f5b"/>
-      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_lrUCUMbpEfCpRtUUrq7kuQ" x="459" y="50" height="50" width="100"/>
-      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_lrPw4MbpEfCpRtUUrq7kuQ" width="1" height="40" resizeKind="NSEW">
-        <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#ff1c2bdf-a18c-4d25-a75b-9cc1425007b1"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#ff1c2bdf-a18c-4d25-a75b-9cc1425007b1"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#33f9f178-324c-4f61-891f-e6465b8cee76"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#c62c6d7a-1b3e-4f65-92b4-6d2adb729f5b"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_lrQX8MbpEfCpRtUUrq7kuQ" width="1" height="1">
-          <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#ff1c2bdf-a18c-4d25-a75b-9cc1425007b1"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#ff1c2bdf-a18c-4d25-a75b-9cc1425007b1"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#33f9f178-324c-4f61-891f-e6465b8cee76"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#c62c6d7a-1b3e-4f65-92b4-6d2adb729f5b"/>
-          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_lrQ_AMbpEfCpRtUUrq7kuQ" showIcon="false" labelPosition="node" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/handlelifeline.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']/@borderedNodeMappings[name='endOfLifeDF']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_2:EndOfLifeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']/@borderedNodeMappings[name='endOfLifeDF']"/>
-        </ownedBorderedNodes>
-        <ownedStyle xmi:type="diagram:Square" uid="_lrPw4cbpEfCpRtUUrq7kuQ" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="128,128,128" labelPosition="node" width="1" height="40">
-          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_2:ExecutionMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']"/>
-      </ownedBorderedNodes>
-      <ownedStyle xmi:type="diagram:Square" uid="_lrN7sMbpEfCpRtUUrq7kuQ" borderSize="1" borderSizeComputationExpression="1" borderColor="74,74,151" labelPosition="node" width="10" height="5" color="198,230,255">
-        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@conditionnalStyles.0/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_2:InstanceRoleMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']"/>
-    </ownedDiagramElements>
-    <description xmi:type="description_2:SequenceDiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']"/>
-    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
-    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_V5jZwMbpEfCpRtUUrq7kuQ"/>
-    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer"/>
-    <target xmi:type="org.polarsys.capella.core.data.interaction:Scenario" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#e2c3a4a2-268f-4862-9d3a-682664dbc876"/>
-  </sequence:SequenceDDiagram>
   <diagram:DSemanticDiagram uid="_Bn63IMbqEfCpRtUUrq7kuQ">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_BoDaAMbqEfCpRtUUrq7kuQ" source="GMF_DIAGRAMS">
       <data xmi:type="notation:Diagram" xmi:id="_BoDaAcbqEfCpRtUUrq7kuQ" type="Sirius" element="_Bn63IMbqEfCpRtUUrq7kuQ" measurementUnit="Pixel">
@@ -4390,7 +4163,7 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x1btcsb3EfCpRtUUrq7kuQ"/>
                 </children>
                 <styles xmi:type="notation:ShapeStyle" xmi:id="_x1WN4cb3EfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x1WN4sb3EfCpRtUUrq7kuQ" x="92" y="30" width="10" height="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x1WN4sb3EfCpRtUUrq7kuQ" x="126" y="30" width="10" height="10"/>
               </children>
               <children xmi:type="notation:Node" xmi:id="_x1bGYMb3EfCpRtUUrq7kuQ" type="3003" element="_x1DS8Mb3EfCpRtUUrq7kuQ">
                 <styles xmi:type="notation:ShapeStyle" xmi:id="_x1bGYcb3EfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
@@ -4527,13 +4300,13 @@
         <styles xmi:type="notation:DiagramStyle" xmi:id="_PtNq8sb3EfCpRtUUrq7kuQ"/>
         <edges xmi:type="notation:Edge" xmi:id="_x1hNAMb3EfCpRtUUrq7kuQ" type="4001" element="_x1KAoMb3EfCpRtUUrq7kuQ" source="_x1WN4Mb3EfCpRtUUrq7kuQ" target="_mcEBcMb3EfCpRtUUrq7kuQ">
           <children xmi:type="notation:Node" xmi:id="_x1h0EMb3EfCpRtUUrq7kuQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x1h0Ecb3EfCpRtUUrq7kuQ" x="7" y="-35"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x1h0Ecb3EfCpRtUUrq7kuQ" x="4" y="-7"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_x1h0Esb3EfCpRtUUrq7kuQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x1h0E8b3EfCpRtUUrq7kuQ" x="-30"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x1h0E8b3EfCpRtUUrq7kuQ" x="-55"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_x1h0FMb3EfCpRtUUrq7kuQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x1h0Fcb3EfCpRtUUrq7kuQ" x="-26"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x1h0Fcb3EfCpRtUUrq7kuQ" x="-35"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_x1hNAcb3EfCpRtUUrq7kuQ" routing="Rectilinear" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_x1hNAsb3EfCpRtUUrq7kuQ" fontColor="16777215" fontName="Ubuntu Sans" fontHeight="8"/>
@@ -5112,85 +4885,6 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer"/>
     <target xmi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#793ff302-ceab-4286-821c-42441bd0e12e"/>
   </diagram:DSemanticDiagram>
-  <sequence:SequenceDDiagram uid="_2puwoMb8EfCpRtUUrq7kuQ">
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_2pzCEMb8EfCpRtUUrq7kuQ" source="GMF_DIAGRAMS">
-      <data xmi:type="notation:Diagram" xmi:id="_2pzCEcb8EfCpRtUUrq7kuQ" type="Sirius" element="_2puwoMb8EfCpRtUUrq7kuQ" measurementUnit="Pixel">
-        <children xmi:type="notation:Node" xmi:id="_2p5IsMb8EfCpRtUUrq7kuQ" type="2001" element="_2pzpIMb8EfCpRtUUrq7kuQ">
-          <children xmi:type="notation:Node" xmi:id="_2p5vwMb8EfCpRtUUrq7kuQ" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_2p5vwcb8EfCpRtUUrq7kuQ" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_2p5vwsb8EfCpRtUUrq7kuQ" type="3001" element="_2p0QMcb8EfCpRtUUrq7kuQ">
-            <children xmi:type="notation:Node" xmi:id="_2p5vxcb8EfCpRtUUrq7kuQ" type="5001">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_2p5vxsb8EfCpRtUUrq7kuQ" y="5"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_2p6W0Mb8EfCpRtUUrq7kuQ" type="3003" element="_2p0QMsb8EfCpRtUUrq7kuQ">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_2p6W0cb8EfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2p6W0sb8EfCpRtUUrq7kuQ"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_2p6W08b8EfCpRtUUrq7kuQ" type="3001" element="_2p03QMb8EfCpRtUUrq7kuQ">
-              <children xmi:type="notation:Node" xmi:id="_2p6W1sb8EfCpRtUUrq7kuQ" type="5001">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_2p6W18b8EfCpRtUUrq7kuQ" y="5"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_2p-BMMb8EfCpRtUUrq7kuQ" type="3005" element="_2p03Qcb8EfCpRtUUrq7kuQ">
-                <styles xmi:type="notation:ShapeStyle" xmi:id="_2p-BMcb8EfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2p-BMsb8EfCpRtUUrq7kuQ"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_2p6W1Mb8EfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2p6W1cb8EfCpRtUUrq7kuQ" x="-68" y="395" width="10" height="10"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_2p5vw8b8EfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2p5vxMb8EfCpRtUUrq7kuQ" y="42" width="10" height="395"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_2p5vx8b8EfCpRtUUrq7kuQ" type="3003" element="_2pzpIcb8EfCpRtUUrq7kuQ">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_2p5vyMb8EfCpRtUUrq7kuQ" fontName="Ubuntu Sans"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2p5vycb8EfCpRtUUrq7kuQ"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_2p5Iscb8EfCpRtUUrq7kuQ" fontName="Ubuntu Sans" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2p5Issb8EfCpRtUUrq7kuQ" x="50" y="50" width="150" height="50"/>
-        </children>
-        <styles xmi:type="notation:DiagramStyle" xmi:id="_2pzCEsb8EfCpRtUUrq7kuQ"/>
-      </data>
-    </ownedAnnotationEntries>
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_2p4hoMb8EfCpRtUUrq7kuQ" source="DANNOTATION_CUSTOMIZATION_KEY">
-      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_2p4hocb8EfCpRtUUrq7kuQ"/>
-    </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_2pzpIMb8EfCpRtUUrq7kuQ" name="System" width="15" height="5" resizeKind="EAST_WEST">
-      <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#78d90655-a104-401e-ad58-e4021428a02d"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#78d90655-a104-401e-ad58-e4021428a02d"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#84b9794c-c758-4e01-b258-2f53b2aa15ee"/>
-      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#07a0bae6-dfe4-4878-b06a-17ed0f720e51"/>
-      <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" uid="_2rJF4Mb8EfCpRtUUrq7kuQ" x="50" y="50" height="50" width="150"/>
-      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_2p0QMcb8EfCpRtUUrq7kuQ" width="1" height="40" resizeKind="NSEW">
-        <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#78d90655-a104-401e-ad58-e4021428a02d"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#78d90655-a104-401e-ad58-e4021428a02d"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#84b9794c-c758-4e01-b258-2f53b2aa15ee"/>
-        <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#07a0bae6-dfe4-4878-b06a-17ed0f720e51"/>
-        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_2p03QMb8EfCpRtUUrq7kuQ" width="1" height="1">
-          <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#78d90655-a104-401e-ad58-e4021428a02d"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#78d90655-a104-401e-ad58-e4021428a02d"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#84b9794c-c758-4e01-b258-2f53b2aa15ee"/>
-          <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#07a0bae6-dfe4-4878-b06a-17ed0f720e51"/>
-          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_2p03Qcb8EfCpRtUUrq7kuQ" showIcon="false" labelPosition="node" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/handlelifeline.svg">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']/@borderedNodeMappings[name='endOfLifeDF']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_2:EndOfLifeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']/@borderedNodeMappings[name='endOfLifeDF']"/>
-        </ownedBorderedNodes>
-        <ownedStyle xmi:type="diagram:Square" uid="_2p0QMsb8EfCpRtUUrq7kuQ" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="128,128,128" labelPosition="node" width="1" height="40">
-          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_2:ExecutionMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@borderedNodeMappings[name='default%20execution%20DF']"/>
-      </ownedBorderedNodes>
-      <ownedStyle xmi:type="diagram:Square" uid="_2pzpIcb8EfCpRtUUrq7kuQ" borderSize="1" borderSizeComputationExpression="1" borderColor="74,74,151" labelPosition="node" width="15" height="5" color="150,177,218">
-        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']/@conditionnalStyles.4/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_2:InstanceRoleMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']"/>
-    </ownedDiagramElements>
-    <description xmi:type="description_2:SequenceDiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']"/>
-    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
-    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_2pvXsMb8EfCpRtUUrq7kuQ"/>
-    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer"/>
-    <target xmi:type="org.polarsys.capella.core.data.interaction:Scenario" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#62ab76ee-9b37-4966-ac1a-7c6b90641753"/>
-  </sequence:SequenceDDiagram>
   <diagram:DSemanticDiagram uid="_AGnh0Mb9EfCpRtUUrq7kuQ">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_AGrzQMb9EfCpRtUUrq7kuQ" source="GMF_DIAGRAMS">
       <data xmi:type="notation:Diagram" xmi:id="_AGrzQcb9EfCpRtUUrq7kuQ" type="Sirius" element="_AGnh0Mb9EfCpRtUUrq7kuQ" measurementUnit="Pixel">
@@ -5408,12 +5102,119 @@
   <diagram:DSemanticDiagram uid="_DqR10Mb9EfCpRtUUrq7kuQ">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_DqWHQMb9EfCpRtUUrq7kuQ" source="GMF_DIAGRAMS">
       <data xmi:type="notation:Diagram" xmi:id="_DqWHQcb9EfCpRtUUrq7kuQ" type="Sirius" element="_DqR10Mb9EfCpRtUUrq7kuQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_uKZoQMo7EfCDmrD_F6P2Vg" type="2001" element="_uHwj8Mo7EfCDmrD_F6P2Vg">
+          <children xmi:type="notation:Node" xmi:id="_uK1GEMo7EfCDmrD_F6P2Vg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_uK1GEco7EfCDmrD_F6P2Vg" y="-18"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_uLd_QMo7EfCDmrD_F6P2Vg" type="3005" element="_uIKzoMo7EfCDmrD_F6P2Vg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uLd_Qco7EfCDmrD_F6P2Vg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uLemUMo7EfCDmrD_F6P2Vg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_uKZoQco7EfCDmrD_F6P2Vg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uKZoQso7EfCDmrD_F6P2Vg" x="460" y="140" width="70" height="46"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Cd1sQMo8EfCDmrD_F6P2Vg" type="2001" element="_Cdnp0Mo8EfCDmrD_F6P2Vg">
+          <children xmi:type="notation:Node" xmi:id="_Cd1sQ8o8EfCDmrD_F6P2Vg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Cd1sRMo8EfCDmrD_F6P2Vg" y="-18"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CeFj4Mo8EfCDmrD_F6P2Vg" type="3005" element="_CdoQ4Mo8EfCDmrD_F6P2Vg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_CeFj4co8EfCDmrD_F6P2Vg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CeFj4so8EfCDmrD_F6P2Vg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Cd1sQco8EfCDmrD_F6P2Vg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cd1sQso8EfCDmrD_F6P2Vg" x="270" y="260" width="70" height="46"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Wz-CcMo9EfCDmrD_F6P2Vg" type="2001" element="_WztjwMo9EfCDmrD_F6P2Vg">
+          <children xmi:type="notation:Node" xmi:id="_Wz-pgMo9EfCDmrD_F6P2Vg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Wz-pgco9EfCDmrD_F6P2Vg" x="-2" y="-18"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W0JBkMo9EfCDmrD_F6P2Vg" type="3005" element="_WzvY8Mo9EfCDmrD_F6P2Vg">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_W0JBkco9EfCDmrD_F6P2Vg" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W0JBkso9EfCDmrD_F6P2Vg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Wz-Ccco9EfCDmrD_F6P2Vg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Wz-Ccso9EfCDmrD_F6P2Vg" x="650" y="260" width="70" height="46"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_DqWHQsb9EfCpRtUUrq7kuQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_djenYMo9EfCDmrD_F6P2Vg" type="4001" element="_djICEMo9EfCDmrD_F6P2Vg" source="_uKZoQMo7EfCDmrD_F6P2Vg" target="_Cd1sQMo8EfCDmrD_F6P2Vg">
+          <children xmi:type="notation:Node" xmi:id="_djhqsMo9EfCDmrD_F6P2Vg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_djhqsco9EfCDmrD_F6P2Vg" x="12" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_djiRwMo9EfCDmrD_F6P2Vg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_djiRwco9EfCDmrD_F6P2Vg" x="15"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dji40Mo9EfCDmrD_F6P2Vg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dji40co9EfCDmrD_F6P2Vg" x="2" y="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_djenYco9EfCDmrD_F6P2Vg" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_djenYso9EfCDmrD_F6P2Vg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_djenY8o9EfCDmrD_F6P2Vg" points="[-6, -1, 159, -108]$[-6, 100, 159, -7]$[-163, 100, 2, -7]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_djkG8Mo9EfCDmrD_F6P2Vg" id="(0.5142857142857142,0.8695652173913043)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_djkG8co9EfCDmrD_F6P2Vg" id="(0.8714285714285714,0.5869565217391305)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_epRKwMo9EfCDmrD_F6P2Vg" type="4001" element="_epBTIMo9EfCDmrD_F6P2Vg" source="_uKZoQMo7EfCDmrD_F6P2Vg" target="_Wz-CcMo9EfCDmrD_F6P2Vg">
+          <children xmi:type="notation:Node" xmi:id="_epRKxMo9EfCDmrD_F6P2Vg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_epRKxco9EfCDmrD_F6P2Vg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_epRKxso9EfCDmrD_F6P2Vg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_epRKx8o9EfCDmrD_F6P2Vg" x="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_epRKyMo9EfCDmrD_F6P2Vg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_epRKyco9EfCDmrD_F6P2Vg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_epRKwco9EfCDmrD_F6P2Vg" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_epRKwso9EfCDmrD_F6P2Vg" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_epRKw8o9EfCDmrD_F6P2Vg" points="[0, -4, -159, -101]$[0, 97, -159, 0]$[161, 97, 2, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_epRKyso9EfCDmrD_F6P2Vg" id="(0.44285714285714284,0.9347826086956522)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_epRKy8o9EfCDmrD_F6P2Vg" id="(0.0,0.43478260869565216)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_DqYjgMb9EfCpRtUUrq7kuQ" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_DqYjgcb9EfCpRtUUrq7kuQ"/>
     </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_uHwj8Mo7EfCDmrD_F6P2Vg" name="[MCB] Considering upcoming precipitation to avoid unnecessary watering" outgoingEdges="_djICEMo9EfCDmrD_F6P2Vg _epBTIMo9EfCDmrD_F6P2Vg" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.ctx:Mission" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#87c85655-d359-48f9-b438-1c79cf35ecb2"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:Mission" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#87c85655-d359-48f9-b438-1c79cf35ecb2"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_uIKzoMo7EfCDmrD_F6P2Vg" showIcon="false" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/Mission.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='MissionNode4']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='MissionNode4']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Cdnp0Mo8EfCDmrD_F6P2Vg" name="Search for forecast informations" incomingEdges="_djICEMo9EfCDmrD_F6P2Vg" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#f25b6b92-9758-4f37-97fa-b1d82bb03d4c"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#f25b6b92-9758-4f37-97fa-b1d82bb03d4c"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_CdoQ4Mo8EfCDmrD_F6P2Vg" showIcon="false" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/Capability.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='CapabilityNode4']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='CapabilityNode4']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_WztjwMo9EfCDmrD_F6P2Vg" name="Update watering schedule" incomingEdges="_epBTIMo9EfCDmrD_F6P2Vg" width="7" height="7" resizeKind="NSEW">
+      <target xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#3060b4f9-60ed-4520-99c9-b68257efcffb"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:Capability" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#3060b4f9-60ed-4520-99c9-b68257efcffb"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_WzvY8Mo9EfCDmrD_F6P2Vg" showIcon="false" workspacePath="/org.polarsys.capella.core.sirius.analysis/description/images/Capability.svg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='CapabilityNode4']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='CapabilityNode4']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_djICEMo9EfCDmrD_F6P2Vg" sourceNode="_uHwj8Mo7EfCDmrD_F6P2Vg" targetNode="_Cdnp0Mo8EfCDmrD_F6P2Vg">
+      <target xmi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#32ec6cf1-a113-4553-98b3-220857261303"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#32ec6cf1-a113-4553-98b3-220857261303"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_djIpIMo9EfCDmrD_F6P2Vg" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='CapExploitation4']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_djIpIco9EfCDmrD_F6P2Vg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='CapExploitation4']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_epBTIMo9EfCDmrD_F6P2Vg" sourceNode="_uHwj8Mo7EfCDmrD_F6P2Vg" targetNode="_WztjwMo9EfCDmrD_F6P2Vg">
+      <target xmi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#882b098a-6a80-40d9-8b0d-90a1644fce10"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:CapabilityExploitation" href="Smart%20Irrigation%20Management%20System%20for%20Agricultural%20Fields.capella#882b098a-6a80-40d9-8b0d-90a1644fce10"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_epBTIco9EfCDmrD_F6P2Vg" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='CapExploitation4']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_epBTIso9EfCDmrD_F6P2Vg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='CapExploitation4']"/>
+    </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']"/>
     <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_DqR10cb9EfCpRtUUrq7kuQ"/>
